@@ -65,7 +65,6 @@ def zapisi_json(objekt, ime_datoteke):
 # Naloži spletne strani iz rubrike: 'top anime'
 
 top_directory = os.path.join('anime', 'top')
-links_name = os.path.join('data', 'links_to_anime.txt')
 
 
 def top_url(index):
@@ -80,6 +79,8 @@ for i in range(2):
 
 # Pridobi spletne naslove pravih strani in jih shrani
 
+
+links_name = os.path.join('data', 'links_to_anime.txt')
 
 top_pattern = re.compile(
     r'<span class="lightLink top-anime-rank-text rank\d+?">.*?'
@@ -104,3 +105,52 @@ def write_links_from_top(text_file=links_name, directory=top_directory):
                     file.write(result['href'] + '\n')
 
 write_links_from_top()
+
+# Naloži spletne strani, katerih linki so zapisani v textovni datoteki
+
+
+full_directory = os.path.join('anime', 'full')
+
+
+def name(url):
+    return os.path.join(full_directory, url[url.rindex('/') + 1:] + '.html')
+
+
+def download_pages(text_file=links_name):
+    with open(text_file, 'r', encoding='utf-8') as file:
+        for line in file:
+            shrani_spletno_stran(line.strip(), name(line.strip()))
+
+download_pages()
+
+# Iz spletnih strani razbere podatke in naredi csv ter json
+
+
+full_pattern = re.compile(
+    r'<title>(?P<title>.*?)</title>.*?'
+    r'<meta property="og:description" content="(?P<description>.*?)">.*?'
+    r'Type:</span>\s*?<a href="(.*?)">(?P<type>.*?)</a></div>.*?'
+    r'Episodes:</span>(?P<episodes>.*?)<.*?'
+    r'Status:</span>(?P<status>.*?)<.*?'
+    r'Aired:</span>(?P<aired>.*?)<.*?'
+
+    r'Producers:</span>(?P<producers>.*?)</div>.*?'
+    r'Studios:</span>(?P<studios>.*?)</div>.*?'
+
+    r'Source:</span>(?P<source>.*?)</div>.*?'
+
+    r'Genres:</span>(?P<genres>.*?)</div>.*?'
+
+    r'Duration:</span>(?P<duration>.*?)</div>.*?'
+    r'Rating:</span>(?P<rating>.*?)</div>.*?'
+
+    r'Score:</span>\s*?<span itemprop="(.*?)">(?P<score>.*?)<.*?'
+    r'Ranked:</span>\s*?#(?P<rank>\d*?)<.*?'
+    r'Popularity:</span>\s*?#(?P<popularity>.*?)</div>.*?'
+    r'Members:</span>(?P<members>.*?)</div>.*?'
+    r'Favorites:</span>(?P<favorites>.*?)</div>.*?',
+    re.DOTALL
+)
+
+for m in full_pattern.finditer(vsebina_datoteke(os.path.join(full_directory, 'Death_Note.html'))):
+    print(m.groupdict())
