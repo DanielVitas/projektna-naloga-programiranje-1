@@ -3,6 +3,7 @@ import json
 import os
 import re
 import sys
+from datetime import datetime
 
 import requests
 
@@ -127,7 +128,7 @@ download_pages()
 
 
 full_pattern = re.compile(
-    r'<title>(?P<title>.*?)</title>.*?'
+    r'<meta property="og:title" content="(?P<title>.*?)">.*?'
     r'<meta property="og:description" content="(?P<description>.*?)">.*?'
     r'Type:</span>\s*?<a href="(.*?)">(?P<type>.*?)</a></div>.*?'
     r'Episodes:</span>(?P<episodes>.*?)<.*?'
@@ -152,5 +153,82 @@ full_pattern = re.compile(
     re.DOTALL
 )
 
-for m in full_pattern.finditer(vsebina_datoteke(os.path.join(full_directory, 'Death_Note.html'))):
-    print(m.groupdict())
+producer_pattern = re.compile(r'<a href="/anime/producer/(?P<id>\d*?)/.*?" title=".*?">(?P<name>.*?)</a>')
+genres_pattern = re.compile(r'<a href="/anime/genre/(?P<id>\d*?)/.*?" title=".*?">(?P<name>.*?)</a>')
+
+
+def aired_extract(aired):
+    'Oct 4, 2006 to Jun 27, 2007'
+    a = aired.split(" to ")
+    try:
+        date_from = datetime.strptime(a[0], '%b %d, %Y')
+    except ValueError:
+        date_from = None
+    try:
+        date_to = datetime.strptime(a[1], '%b %d, %Y')
+    except ValueError:
+        date_to = None
+    return (date_from, date_to)
+
+
+def producer_extract(text):
+    producers = dict()
+    for match in producer_pattern.finditer(text):
+        producers[match.groupdict()['id']] = match.groupdict()['name']
+    return producers
+
+
+def genres_extract(text):
+    genres = dict()
+    for match in genres_pattern.finditer(text):
+        genres[match.groupdict()['id']] = match.groupdict()['name']
+    return genres
+
+
+def clean_info(info):
+    info['title'] = info['title'].strip()
+    info['description'] = info['description']
+    info['type'] = info['type'].strip()
+    try:
+        info['episodes'] = int(info['episodes'])
+    except ValueError:
+        info['episodes'] = None
+    info['status'] = info['status'].strip()
+
+    a = aired_extract(info['aired'].strip())
+    info['airedfrom'] = a[0]
+    info['airedto'] = a[1]
+    info.pop('aired')
+
+    info['producers'] = info['producers'].strip()
+    print(producer_extract(info['producers']))
+    info['source'] = info['source'].strip()
+    info['genres'] = info['genres'].strip()
+
+    info['duration'] = info['duration'].strip()
+    info['rating'] = info['rating'].strip()
+    try:
+        info['score'] = float(info['score'])
+    except ValueError:
+        info['score'] = None
+    try:
+        info['rank'] = int(info['rank'])
+    except ValueError:
+        info['rank'] = None
+    try:
+        info['popularity'] = int(info['popularity'])
+    except ValueError:
+        info['popularity'] = None
+    try:
+        info['members'] = float(info['members'].replace(',','.'))
+    except ValueError:
+        info['members'] = None
+    try:
+        info['favorites'] = float(info['favorites'].replace(',','.'))
+    except ValueError:
+        info['members'] = None
+
+    return info
+
+for m in full_pattern.finditer(vsebina_datoteke(os.path.join(full_directory, 'One_Piece.html'))):
+    print(clean_info(m.groupdict()))
