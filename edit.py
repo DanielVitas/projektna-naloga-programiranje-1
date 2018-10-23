@@ -106,13 +106,13 @@ def clean_info(info):
     except ValueError:
         info['popularity'] = None
     try:
-        info['members'] = float(info['members'].replace(',', '.'))
+        info['members'] = int(info['members'].replace(',', ''))
     except ValueError:
         info['members'] = None
     try:
-        info['favorites'] = float(info['favorites'].replace(',', '.'))
+        info['favorites'] = int(info['favorites'].replace(',', ''))
     except ValueError:
-        info['members'] = None
+        info['favorites'] = None
     return info
 
 ###############################################################################
