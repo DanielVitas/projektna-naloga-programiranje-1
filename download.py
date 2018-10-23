@@ -16,8 +16,10 @@ def top_url(index):
 def top_name(index):
     return os.path.join('anime', 'top', 'html{}.html'.format(index))
 
+# V primeru posodabljanja je trba posodbiti le range ter nastaviti vsili prenos na True
+
 for i in range(265):  # 265 * 50 = 13250
-    orodja.shrani_spletno_stran(top_url(i), top_name(i))
+    orodja.shrani_spletno_stran(top_url(i), top_name(i), vsili_prenos=False) 
 
 ###############################################################################
 # Pridobi spletne naslove pravih strani in jih shrani
