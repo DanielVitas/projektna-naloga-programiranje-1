@@ -1,5 +1,5 @@
 # Analiza animejev
-Analiziral bom vseh (13238) uvrščenih animejev na strani [MyAnimeList](https://myanimelist.net/).  
+Analiziral bom vseh (13250) uvrščenih animejev na strani [MyAnimeList](https://myanimelist.net/).  
   
 Za vsak anime bom zajel:
 * naslov

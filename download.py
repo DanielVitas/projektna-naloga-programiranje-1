@@ -16,7 +16,7 @@ def top_url(index):
 def top_name(index):
     return os.path.join('anime', 'top', 'html{}.html'.format(index))
 
-for i in range(2):
+for i in range(265):  # 265 * 50 = 13250
     orodja.shrani_spletno_stran(top_url(i), top_name(i))
 
 ###############################################################################
