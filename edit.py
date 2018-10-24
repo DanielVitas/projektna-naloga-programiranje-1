@@ -14,7 +14,7 @@ full_pattern = re.compile(
     r'<meta property="og:title" content="(?P<title>.*?)">.*?'
     r'<meta property="og:url" content="https://myanimelist.net/anime/(?P<id>.*?)/.*?'
     r'<meta property="og:description" content="(?P<description>.*?)">.*?'
-    r'Type:</span>\s*?<a href="(.*?)">(?P<type>.*?)</a></div>.*?'
+    r'Type:</span>(?P<type>.*?)</div>.*?'
     r'Episodes:</span>(?P<episodes>.*?)<.*?'
     r'Status:</span>(?P<status>.*?)<.*?'
     r'Aired:</span>(?P<aired>.*?)<.*?'
@@ -29,7 +29,7 @@ full_pattern = re.compile(
     r'Duration:</span>(?P<duration>.*?)</div>.*?'
     r'Rating:</span>(?P<rating>.*?)</div>.*?'
 
-    r'Score:</span>\s*?<span itemprop="(.*?)">(?P<score>.*?)<.*?'
+    r'Score:</span>(?P<score>.*?)/span>.*?'
     r'Ranked:</span>\s*?#(?P<rank>\d*?)<.*?'
     r'Popularity:</span>\s*?#(?P<popularity>.*?)</div>.*?'
     r'Members:</span>(?P<members>.*?)</div>.*?'
@@ -70,11 +70,19 @@ def genres_extract(text):
     return genres
 
 
+def type_clean(anime_type):
+    try:
+        anime_type = anime_type[anime_type.index('>') + 1:anime_type.rindex('<')]
+    except ValueError:
+        anime_type = anime_type.strip()
+    return anime_type
+
+
 def clean_info(info):
     info['title'] = info['title'].strip()
     info['id'] = int(info['id'])
     info['description'] = info['description']
-    info['type'] = info['type'].strip()
+    info['type'] = type_clean(info['type'])
     try:
         info['episodes'] = int(info['episodes'])
     except ValueError:
@@ -94,7 +102,7 @@ def clean_info(info):
     info['duration'] = info['duration'].strip()
     info['rating'] = info['rating'].strip()
     try:
-        info['score'] = float(info['score'])
+        info['score'] = float(type_clean(info['score']))
     except ValueError:
         info['score'] = None
     try:
@@ -155,6 +163,7 @@ def get_linked_lists(anime_list):
 def create_data(directory=folders.full_directory, json=True, csv=True):
     anime_list = []
     for filename in os.listdir(directory):
+        # print(filename)
         content = orodja.vsebina_datoteke(os.path.join(directory, filename))
         result = full_pattern.search(content)
         if result:

@@ -1,1 +1,1913 @@
-Too Many Requests
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head>
+    
+
+<title>
+  Top Anime (1500 - ) - MyAnimeList.net
+</title>
+<meta name="description" content="Browse the highest-ranked anime on MyAnimeList, the internet&#039;s largest anime database (1500 - ). Find the top TV series, movies, and OVAs right here!" />
+
+  
+<meta name="keywords" content="anime, myanimelist, anime news, manga" />
+  
+
+  
+          
+          
+  <link rel="prev" href="https://myanimelist.net/topanime.php?limit=1450" /><link rel="next" href="https://myanimelist.net/topanime.php?limit=1550" />
+
+
+
+
+<meta property="og:locale" content="en_US"><meta property="fb:app_id" content="360769957454434"><meta property="og:site_name" content="MyAnimeList.net"><meta name="twitter:card" content="summary"><meta name="twitter:site" content="@myanimelist"><meta property="og:title" content=" Top Anime (1500 - ) - MyAnimeList.net "><meta property="og:image" content="https://myanimelist.cdn-dena.com/img/sp/icon/apple-touch-icon-256.png"><meta name="twitter:image:src" content="https://myanimelist.cdn-dena.com/img/sp/icon/apple-touch-icon-256.png"><meta property="og:url" content="https://myanimelist.net/topanime.php?limit=1500"><meta property="og:description" content="Browse the highest-ranked anime on MyAnimeList, the internet&#039;s largest anime database (1500 - ). Find the top TV series, movies, and OVAs right here!">
+
+<meta name="referrer" content="default"><link rel="manifest" href="/manifest.json">
+
+<meta name='csrf_token' content='77f93a05fe35f64f41436de577c17dba17710a14'><link rel="stylesheet" type="text/css" href="https://myanimelist.cdn-dena.com/static/assets/css/pc/style-abc038a5d1.css" />
+
+<script type="text/javascript" src="https://myanimelist.cdn-dena.com/static/assets/js/pc/header-69110ae9e9.js"></script>
+<script type="text/javascript" src="https://myanimelist.cdn-dena.com/static/assets/js/pc/all-8978cc1861.js"
+        id="alljs" data-params='{&quot;origin_url&quot;:&quot;https:\/\/myanimelist.net&quot;,&quot;is_request_bot_filter_log&quot;:true}' defer></script>
+
+
+
+<link rel="search" type="application/opensearchdescription+xml" href="https://myanimelist.net/plugins/myanimelist.xml" title="MyAnimeList" />
+
+<link rel="shortcut icon" href="https://myanimelist.cdn-dena.com/images/faviconv5.ico" />
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga')
+
+  ga('create', 'UA-369102-1', 'auto')
+  ga('set', 'anonymizeIp', true)
+  ga('require', 'linkid') // Enhanced Link Attribution
+  ga('send', 'pageview')
+</script>
+<script src="https://apis.google.com/js/platform.js" async defer>{lang: 'en-GB'}</script>
+<script src="https://www.google.com/recaptcha/api.js?hl=en"></script>
+
+
+</head>
+
+<body onload=" " class="page-common"
+
+data-ms="true">
+
+<div id="myanimelist">
+
+    
+        <div class="wrapper"><div id="headerSmall"><a href="/" class="link-mal-logo">MyAnimeList.net</a>
+
+<a href="https://mtb7.myanimelist.net/index.html"
+     class="banner-header-anime-straming" target="_blank">
+    <img src="https://myanimelist.cdn-dena.com/images/mtb/header_banner_vol7_with_application_period.png" width="250" height="36"
+         srcset="https://myanimelist.cdn-dena.com/images/mtb/header_banner_vol7_with_application_period.png 1x, https://myanimelist.cdn-dena.com/images/mtb/header_banner_vol7_with_application_period@2x.png 2x"
+         alt="MangaTranslationBattle vol7 - Application Period 2018/11/05" title="MangaTranslationBattle vol7 - Application Period 2018/11/05">
+  </a>
+<div id="header-menu" ><div class="header-menu-login"><a class="btn-mal-service"
+             href="https://myanimelist.net/membership?_location=mal_h_u">Hide Ads</a><a class="btn-login" href="https://myanimelist.net/login.php?from=%2Ftopanime.php%3Flimit%3D1500" id="malLogin">Login</a><a class="btn-signup" href="https://myanimelist.net/register.php?from=%2Ftopanime.php%3Flimit%3D1500">Sign Up</a></div></div></div>  <div id="menu" class="">
+    <div id="menu_right"><script type="text/x-template" id="incremental-result-item-anime"><div class="list anime" :class="{'focus': focus}"><a :href="url" class="clearfix"><div class="on" v-if="focus"><span class="image" :style="{'background-image': 'url(' + item.image_url + ')'}"></span><div class="info anime"><div class="name">${ item.name } <span class="media-type">(${ item.payload.media_type })</span></div><div class="extra-info">Aired: ${ item.payload.aired }<br>Score: ${ item.payload.score }<br>Status: ${ item.payload.status }</div></div></div><div class="off" v-if="!focus"><span class="image" :style="{'background-image': 'url(' + item.thumbnail_url + ')'}"></span><div class="info anime"><div class="name">${ item.name }</div><div class="media-type">(${ mediaTypeWithStartYear })</div></div></div></a></div></script><script type="text/x-template" id="incremental-result-item-manga"><div class="list manga" :class="{'focus': focus}"><a :href="url" class="clearfix"><div class="on" v-if="focus"><span class="image" :style="{'background-image': 'url(' + item.image_url + ')'}"></span><div class="info manga"><div class="name">${ item.name } <span class="media-type">(${ item.payload.media_type })</span></div><div class="extra-info">Published: ${ item.payload.published }<br>Score: ${ item.payload.score }<br>Status: ${ item.payload.status }</div></div></div><div class="off" v-if="!focus"><span class="image" :style="{'background-image': 'url(' + item.thumbnail_url + ')'}"></span><div class="info manga"><div class="name">${ item.name }</div><div class="media-type">(${ mediaTypeWithStartYear })</div></div></div></a></div></script><script type="text/x-template" id="incremental-result-item-character"><div class="list character" :class="{'focus': focus}"><a :href="url" class="clearfix"><div class="on" v-if="focus"><span class="image" :style="{'background-image': 'url(' + item.image_url + ')'}"></span><div class="info character"><div class="name">${ item.name }</div><div class="extra-info"><ul class="related-works"><li v-for="work in item.payload.related_works" class="fs-i">- ${ work }</li></ul>Favorites: ${ item.payload.favorites }</div></div></div><div class="off" v-if="!focus"><span class="image" :style="{'background-image': 'url(' + item.thumbnail_url + ')'}"></span><div class="info character"><div class="name">${ item.name }</div></div></div></a></div></script><script type="text/x-template" id="incremental-result-item-person"><div class="list person" :class="{'focus': focus}"><a :href="url" class="clearfix"><div class="on" v-if="focus"><span class="image" :style="{'background-image': 'url(' + item.image_url + ')'}"></span><div class="info person"><div class="name">${ item.name }</div><div class="extra-info"><span v-if="item.payload.alternative_name">${ item.payload.alternative_name }<br></span>Birthday: ${ item.payload.birthday }<br>Favorites: ${ item.payload.favorites }</div></div></div><div class="off" v-if="!focus"><span class="image" :style="{'background-image': 'url(' + item.thumbnail_url + ')'}"></span><div class="info person"><div class="name">${ item.name }</div></div></div></a></div></script><script type="text/x-template" id="incremental-result-item-store"><div class="list store" :class="{'focus': focus}"><a :href="url" class="clearfix"><div class="on" v-if="focus"><span class="image" :style="{'background-image': 'url(' + item.image_url + ')'}"></span><div class="info store"></div></div><div class="off" v-if="!focus"><span class="image" :style="{'background-image': 'url(' + item.thumbnail_url + ')'}"></span><div class="info store"></div></div></a></div></script><script type="text/x-template" id="incremental-result-item-club"><div class="list club" :class="{'focus': focus}"><a :href="url" class="clearfix"><div class="on" v-if="focus"><span class="image" :style="{'background-image': 'url(' + item.image_url + ')'}"></span><div class="info club"><div class="name">${ item.name }</div><div class="extra-info">Members: ${ item.payload.members }<br>Category: ${ item.payload.category }<br>Created by: ${ item.payload.created_by }</div></div></div><div class="off" v-if="!focus"><span class="image" :style="{'background-image': 'url(' + item.thumbnail_url + ')'}"></span><div class="info club"><div class="name">${ item.name }</div></div></div></a></div></script><script type="text/x-template" id="incremental-result-item-user"><div class="list user" :class="{'focus': focus}"><a :href="url" class="clearfix"><div class="on" v-if="focus"><span class="image" :style="{'background-image': 'url(' + item.image_url + ')'}"></span><div class="info user"><div class="name">${ item.name }</div><div class="extra-info"><span v-if="item.payload.authority">${ item.payload.authority }<br></span>Joined: ${ item.payload.joined }</div></div></div><div class="off" v-if="!focus"><span class="image" :style="{'background-image': 'url(' + item.thumbnail_url + ')'}"></span><div class="info user"><div class="name">${ item.name }</div></div></div></a></div></script><script type="text/x-template" id="incremental-result-item-news"><div class="list news" :class="{'focus': focus}"><a :href="url" class="clearfix"><div class="on" v-if="focus"><span class="image" :style="{'background-image': 'url(' + item.image_url + ')'}"></span><div class="info news"><div class="name">${ item.name }</div><div class="extra-info">${ item.payload.date }</div></div></div><div class="off" v-if="!focus"><span class="image" :style="{'background-image': 'url(' + item.thumbnail_url + ')'}"></span><div class="info news"><div class="name">${ item.name }</div><div class="media-type">${ item.payload.date }</div></div></div></a></div></script><script type="text/x-template" id="incremental-result-item-featured"><div class="list featured" :class="{'focus': focus}"><a :href="url" class="clearfix"><div class="on" v-if="focus"><span class="image" :style="{'background-image': 'url(' + item.image_url + ')'}"></span><div class="info featured"><div class="name">${ item.name }</div><div class="extra-info">${ item.payload.date }</div></div></div><div class="off" v-if="!focus"><span class="image" :style="{'background-image': 'url(' + item.thumbnail_url + ')'}"></span><div class="info featured"><div class="name">${ item.name }</div><div class="media-type">${ item.payload.date }</div></div></div></a></div></script><script type="text/x-template" id="incremental-result-item-forum"><div class="list forum" :class="{'focus': focus}"><a :href="url" class="clearfix"><div class="on" v-if="focus"><span class="image" :style="{'background-image': 'url(' + item.image_url + ')'}"></span><div class="info forum"><div class="name"><span v-show="item.payload.work_title">${ item.payload.work_title}
+                      <i class="fa fa-caret-right"></i></span> ${ item.name }</div><div class="extra-info">${ item.payload.date }<br><span>in ${ item.payload.category }</span></div></div></div><div class="off" v-if="!focus"><span class="image" :style="{'background-image': 'url(' + item.thumbnail_url + ')'}"></span><div class="info forum"><div class="name"><span v-show="item.payload.work_title">${ item.payload.work_title}
+                      <i class="fa fa-caret-right"></i></span> ${ item.name }</div><div class="media-type">${ item.payload.date }</div></div></div></a></div></script><script type="text/x-template" id="incremental-result-item-separator"><div class="list separator"><div class="separator"><span v-show="item.name == 'anime'">Anime</span><span v-show="item.name == 'manga'">Manga</span><span v-show="item.name == 'character'">Characters</span><span v-show="item.name == 'person'">People</span></div></div></script><div id="top-search-bar"><form id="searchBar" method="get" class="searchBar" @submit.prevent="jump()"><div class="form-select-outer fl-l"><select name="type" id="topSearchValue" class="inputtext" v-model="type"><option value="all">All</option><option value="anime">Anime</option><option value="manga">Manga</option><option value="character">Characters</option><option value="person">People</option><option value="store">Manga Store</option><option value="news">News</option><option value="featured">Featured Articles</option><option value="forum">Forum</option><option value="club">Clubs</option><option value="user">Users</option></select></div><input v-model="keyword" id="topSearchText" type="text"
+            name="keyword" class="inputtext fl-l" placeholder="Search Anime, Manga, and more..."
+            size="30" autocomplete="off"
+            @keydown.up.prevent="moveSelection(-1)" @keydown.down.prevent="moveSelection(1)"
+            @focus="isFocused = true" @blur="isFocused = false"><input id="topSearchButon" class="fl-l" :class="{'notActive': (keyword.length < 3)}" type="submit" value="&#xf002"></form><div id="topSearchResultList" class="incrementalSearchResultList" :style="{display: (showResult ? 'block' : 'none')}" @mousedown.prevent=""><div v-for="(item, i) in items" @mouseover="selection=i"><component :is="resolveComponent(item)" :item="item" :focus="selection == i" :url="generateItemPageUrl(item)"></component></div><div class="list list-bottom" :class="{'focus': selection == -1}" @mouseover="selection = -1"
+               :style="{display: (showViewAllLink ? 'block' : 'none')}"><a :href="resultPageUrl">
+              View all results for <span class="fw-b">${ keyword }</span><i v-show="isRequesting" class="fa fa-spinner fa-spin ml4"></i></a></div></div></div></div><div id="menu_left">
+      <ul id="nav">
+        <li class="small"><a href="#" class="non-link">Anime</a>
+          <ul class="wider">
+            <li><a href="https://myanimelist.net/anime.php?_location=mal_h_m">Anime Search</a></li>
+            <li><a href="https://myanimelist.net/topanime.php?_location=mal_h_m">Top Anime</a></li>
+            <li><a href="https://myanimelist.net/anime/season?_location=mal_h_m">Seasonal Anime</a></li>
+                        <li><a href="https://myanimelist.net/watch/episode?_location=mal_h_m_a">Videos</a></li>
+            <li><a href="https://myanimelist.net/reviews.php?t=anime&amp;_location=mal_h_m">Reviews</a></li>
+            <li><a href="https://myanimelist.net/recommendations.php?s=recentrecs&amp;t=anime&amp;_location=mal_h_m">Recommendations</a></li>
+            <li><a href="https://myanimelist.net/forum?topicid=1696289&amp;_location=mal_h_m">2018 Challenge</a></li>
+          </ul>
+        </li>
+        <li class="small"><a href="#" class="non-link">Manga</a>
+          <ul class="wider">
+            <li><a href="https://myanimelist.net/manga.php?_location=mal_h_m">Manga Search</a></li>
+            <li><a href="https://myanimelist.net/topmanga.php?_location=mal_h_m">Top Manga</a></li>
+            <li><a href="https://myanimelist.net/store?_location=mal_h_m">Manga Store</a></li>
+            <li><a href="https://myanimelist.net/reviews.php?t=manga&amp;_location=mal_h_m">Reviews</a></li>
+            <li><a href="https://myanimelist.net/recommendations.php?s=recentrecs&amp;t=manga&amp;_location=mal_h_m">Recommendations</a></li>
+            <li><a href="https://myanimelist.net/forum?topicid=1696290&amp;_location=mal_h_m">2018 Challenge</a></li>
+          </ul>
+        </li>
+        <li><a href="#" class="non-link">Community</a>
+          <ul>
+            <li><a href="https://myanimelist.net/forum/?_location=mal_h_m">Forums</a></li>
+            <li><a href="https://myanimelist.net/clubs.php?_location=mal_h_m">Clubs</a></li>
+            <li><a href="https://myanimelist.net/blog.php?_location=mal_h_m">Blogs</a></li>
+            <li><a href="https://myanimelist.net/users.php?_location=mal_h_m">Users</a></li>
+            <li><a href="https://discord.gg/E2xC8ZF">Discord Chat</a></li>
+          </ul>
+        </li>
+        <li class="small2"><a href="#" class="non-link">Industry</a>
+          <ul class="wider">
+            <li><a href="https://myanimelist.net/news?_location=mal_h_m">News</a></li>
+            <li><a href="https://myanimelist.net/featured?_location=mal_h_m">Featured Articles</a></li>
+            <li><a href="https://myanimelist.net/people.php?_location=mal_h_m">People</a></li>
+            <li><a href="https://myanimelist.net/character.php?_location=mal_h_m">Characters</a></li>
+          </ul>
+        </li>
+        <li class="small"><a href="#" class="non-link">Watch</a>
+          <ul class="wider">
+            <li><a href="https://myanimelist.net/watch/episode?_location=mal_h_m">Episode Videos</a></li>
+            <li><a href="https://myanimelist.net/watch/promotion?_location=mal_h_m">Promotional Videos</a></li>
+          </ul>
+        </li>
+        <li class="smaller"><a href="#" class="non-link">Store</a>
+          <ul class="wider">
+            <li><a href="https://myanimelist.net/store?_location=mal_h_m">Manga Store</a></li>
+          </ul>
+        </li>
+        <li class="smaller"><a href="#" class="non-link">Help</a>
+          <ul class="wide">
+            <li><a href="https://myanimelist.net/about.php?_location=mal_h_m">About</a></li>
+            <li><a href="https://myanimelist.net/about.php?go=support&amp;_location=mal_h_m">Support</a></li>
+            <li><a href="https://myanimelist.net/advertising?_location=mal_h_m">Advertising</a></li>
+            <li><a href="https://myanimelist.net/forum/?topicid=515949&amp;_location=mal_h_m">FAQ</a></li>
+            <li><a href="https://myanimelist.net/modules.php?go=report&amp;_location=mal_h_m">Report</a></li>
+            <li><a href="https://myanimelist.net/about.php?go=team&amp;_location=mal_h_m">Staff</a></li><li><a href="https://myanimelist.net/membership?_location=mal_h_m">MAL Supporter</a></li>
+          </ul>
+        </li>
+        
+      
+      </ul>
+    </div>  </div><div id="contentWrapper"><div><h1 class="h1">Top Anime</h1></div><div id="content">
+
+
+                              <div class="breadcrumb " itemscope itemtype="http://schema.org/BreadcrumbList"><div class="di-ib" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="https://myanimelist.net/" itemprop="item"><span itemprop="name">
+              Top
+                          </span></a><meta itemprop="position" content="1"></div>&nbsp; &gt; &nbsp;<div class="di-ib" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="https://myanimelist.net/anime.php" itemprop="item"><span itemprop="name">
+              Anime
+                          </span></a><meta itemprop="position" content="2"></div>&nbsp; &gt; &nbsp;<div class="di-ib" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="https://myanimelist.net/topanime.php" itemprop="item"><span itemprop="name">
+              Top Anime
+                          </span></a><meta itemprop="position" content="3"></div></div>
+
+
+
+  
+
+<div id="horiznav_nav" class="horiznav_nav_list">
+<ul style="margin-right: 0; padding-right: 0;">
+<li><a href="topanime.php" class="horiznav_active">All Anime</a></li>
+<li><a  href="?type=airing">Top Airing</a></li>
+<li><a  href="?type=upcoming">Top Upcoming</a></li>
+<li><a  href="?type=tv">Top TV Series</a></li>
+<li><a  href="?type=movie">Top Movies</a></li>
+<li><a  href="?type=ova">Top OVAs</a></li>
+<li><a  href="?type=special">Top Specials</a></li>
+<li><a  href="?type=bypopularity">Most Popular</a></li>
+<li><a  href="?type=favorite">Most Favorited</a></li>
+</ul>
+</div>
+  <div class="pb12"><h2 class="fs18 fw-b ff-avenir mt24 top-rank-header2"><span class="fl-r di-ib icon-top-ranking-page"><a href="?limit=1450" class="link-blue-box prev mr4"><i class="fa fa-chevron-left mr4"></i>Prev 50</a><a href="?limit=1550" class="link-blue-box next">Next 50<i class="fa fa-chevron-right ml4"></i></a></span>Top Anime Series<span class="fs10 fw-n ff-Verdana di-ib ml16">Updated twice a day. (<a href="javascript:void(0);" onclick="window.open('info.php?go=topanime','topanime','menubar=no,scrollbars=no,status=no,width=500,height=380');">How do we rank shows?</a>)</span></h2><table border="0" cellpadding="0" cellspacing="0" width="100%" class="top-ranking-table"><tr class="table-header"><td class="rank">Rank</td><td class="title">Title</td><td class="score">Score</td><td class="your-score">Your Score</td><td class="status">Status</td></tr>
+<tr class="ranking-list">
+    <td class="rank ac" valign="top">
+    <span class="lightLink top-anime-rank-text rank4">1501</span>
+  </td>
+    <td class="title al va-t word-break">
+    <a class="hoverinfo_trigger fl-l ml12 mr8" href="https://myanimelist.net/anime/1651/Uchuu_Senkan_Yamato_2" id="#area1651" rel="#info1651">
+      <img width="50" height="70" alt="Anime: Uchuu Senkan Yamato 2" class="lazyload" border="0" data-src="https://myanimelist.cdn-dena.com/r/50x70/images/anime/9/83049.jpg?s=4446e957b85b8bf9ff3928bb3377def1" data-srcset="https://myanimelist.cdn-dena.com/r/50x70/images/anime/9/83049.jpg?s=4446e957b85b8bf9ff3928bb3377def1 1x, https://myanimelist.cdn-dena.com/r/100x140/images/anime/9/83049.jpg?s=8e09fe573d6af79b2d76d46f86ab1e67 2x" />
+    </a>
+
+    <div class="detail"><div id="area1651">
+  <div id="info1651" rel="a1651" class="hoverinfo"></div>
+</div>
+<div class="di-ib clearfix"><a class="hoverinfo_trigger fl-l fs14 fw-b" href="https://myanimelist.net/anime/1651/Uchuu_Senkan_Yamato_2" id="#area1651" rel="#info1651">Uchuu Senkan Yamato 2</a></div><br><div class="information di-ib mt4">
+        TV (26 eps)<br>
+        Oct 1978 - Apr 1979<br>
+        4,923 members
+      </div></div>
+  </td>
+
+    <td class="score ac fs14"><div class="js-top-ranking-score-col di-ib al"><i class="icon-score-star mr4 on"></i><span class="text on">7.56</span></div>
+  </td>
+
+    <td class="your-score ac fs14">
+    <div class="js-top-ranking-your-score-col di-ib al">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=""><i class="icon-score-star mr4 "></i><span class="text ">N/A</span></a>
+</div>
+  </td>
+
+    <td class="status ac">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=" btn-addEdit-large btn-anime-watch-status js-anime-watch-status notinmylist"><i class="fa fa-plus-square-o mr4"></i>Add to list</a>
+</td>
+</tr>
+
+<tr class="ranking-list">
+    <td class="rank ac" valign="top">
+    <span class="lightLink top-anime-rank-text rank4">1502</span>
+  </td>
+    <td class="title al va-t word-break">
+    <a class="hoverinfo_trigger fl-l ml12 mr8" href="https://myanimelist.net/anime/691/Yawara" id="#area691" rel="#info691">
+      <img width="50" height="70" alt="Anime: Yawara!" class="lazyload" border="0" data-src="https://myanimelist.cdn-dena.com/r/50x70/images/anime/4/44864.jpg?s=33dfdb32f273e4e1452951ce6145d15d" data-srcset="https://myanimelist.cdn-dena.com/r/50x70/images/anime/4/44864.jpg?s=33dfdb32f273e4e1452951ce6145d15d 1x, https://myanimelist.cdn-dena.com/r/100x140/images/anime/4/44864.jpg?s=b3139fc70f9f07dc070f3105f8590937 2x" />
+    </a>
+
+    <div class="detail"><div id="area691">
+  <div id="info691" rel="a691" class="hoverinfo"></div>
+</div>
+<div class="di-ib clearfix"><a class="hoverinfo_trigger fl-l fs14 fw-b" href="https://myanimelist.net/anime/691/Yawara" id="#area691" rel="#info691">Yawara!</a></div><br><div class="information di-ib mt4">
+        TV (124 eps)<br>
+        Oct 1989 - Sep 1992<br>
+        9,809 members
+      </div></div>
+  </td>
+
+    <td class="score ac fs14"><div class="js-top-ranking-score-col di-ib al"><i class="icon-score-star mr4 on"></i><span class="text on">7.56</span></div>
+  </td>
+
+    <td class="your-score ac fs14">
+    <div class="js-top-ranking-your-score-col di-ib al">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=""><i class="icon-score-star mr4 "></i><span class="text ">N/A</span></a>
+</div>
+  </td>
+
+    <td class="status ac">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=" btn-addEdit-large btn-anime-watch-status js-anime-watch-status notinmylist"><i class="fa fa-plus-square-o mr4"></i>Add to list</a>
+</td>
+</tr>
+
+<tr class="ranking-list">
+    <td class="rank ac" valign="top">
+    <span class="lightLink top-anime-rank-text rank4">1503</span>
+  </td>
+    <td class="title al va-t word-break">
+    <a class="hoverinfo_trigger fl-l ml12 mr8" href="https://myanimelist.net/anime/33302/Yowamushi_Pedal__Spare_Bike" id="#area33302" rel="#info33302">
+      <img width="50" height="70" alt="Anime: Yowamushi Pedal: Spare Bike" class="lazyload" border="0" data-src="https://myanimelist.cdn-dena.com/r/50x70/images/anime/9/82909.jpg?s=54ede680776421079ff4c268b12cac28" data-srcset="https://myanimelist.cdn-dena.com/r/50x70/images/anime/9/82909.jpg?s=54ede680776421079ff4c268b12cac28 1x, https://myanimelist.cdn-dena.com/r/100x140/images/anime/9/82909.jpg?s=1efdb431c3b7b992403e1c19b761c137 2x" />
+    </a>
+
+    <div class="detail"><div id="area33302">
+  <div id="info33302" rel="a33302" class="hoverinfo"></div>
+</div>
+<div class="di-ib clearfix"><a class="hoverinfo_trigger fl-l fs14 fw-b" href="https://myanimelist.net/anime/33302/Yowamushi_Pedal__Spare_Bike" id="#area33302" rel="#info33302">Yowamushi Pedal: Spare Bike</a><a href="https://myanimelist.net/anime/33302/Yowamushi_Pedal__Spare_Bike/video" class="icon-watch-pv ml8" title="Watch Promotional Video">Watch Promotional Video</a></div><br><div class="information di-ib mt4">
+        Movie (1 eps)<br>
+        Sep 2016 - Sep 2016<br>
+        6,894 members
+      </div></div>
+  </td>
+
+    <td class="score ac fs14"><div class="js-top-ranking-score-col di-ib al"><i class="icon-score-star mr4 on"></i><span class="text on">7.56</span></div>
+  </td>
+
+    <td class="your-score ac fs14">
+    <div class="js-top-ranking-your-score-col di-ib al">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=""><i class="icon-score-star mr4 "></i><span class="text ">N/A</span></a>
+</div>
+  </td>
+
+    <td class="status ac">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=" btn-addEdit-large btn-anime-watch-status js-anime-watch-status notinmylist"><i class="fa fa-plus-square-o mr4"></i>Add to list</a>
+</td>
+</tr>
+
+<tr class="ranking-list">
+    <td class="rank ac" valign="top">
+    <span class="lightLink top-anime-rank-text rank4">1504</span>
+  </td>
+    <td class="title al va-t word-break">
+    <a class="hoverinfo_trigger fl-l ml12 mr8" href="https://myanimelist.net/anime/11235/Amagami_SS__Plus" id="#area11235" rel="#info11235">
+      <img width="50" height="70" alt="Anime: Amagami SS+ Plus" class="lazyload" border="0" data-src="https://myanimelist.cdn-dena.com/r/50x70/images/anime/13/33359.jpg?s=a34e4570527c7640dd98063fe33966c6" data-srcset="https://myanimelist.cdn-dena.com/r/50x70/images/anime/13/33359.jpg?s=a34e4570527c7640dd98063fe33966c6 1x, https://myanimelist.cdn-dena.com/r/100x140/images/anime/13/33359.jpg?s=d1bd4bb6fa8a449930e433db5e8622a0 2x" />
+    </a>
+
+    <div class="detail"><div id="area11235">
+  <div id="info11235" rel="a11235" class="hoverinfo"></div>
+</div>
+<div class="di-ib clearfix"><a class="hoverinfo_trigger fl-l fs14 fw-b" href="https://myanimelist.net/anime/11235/Amagami_SS__Plus" id="#area11235" rel="#info11235">Amagami SS+ Plus</a><a href="https://myanimelist.net/anime/11235/Amagami_SS__Plus/video" class="icon-watch ml8" title="Watch Episode Video">Watch Episode Video</a></div><br><div class="information di-ib mt4">
+        TV (13 eps)<br>
+        Jan 2012 - Mar 2012<br>
+        98,976 members
+      </div></div>
+  </td>
+
+    <td class="score ac fs14"><div class="js-top-ranking-score-col di-ib al"><i class="icon-score-star mr4 on"></i><span class="text on">7.55</span></div>
+  </td>
+
+    <td class="your-score ac fs14">
+    <div class="js-top-ranking-your-score-col di-ib al">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=""><i class="icon-score-star mr4 "></i><span class="text ">N/A</span></a>
+</div>
+  </td>
+
+    <td class="status ac">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=" btn-addEdit-large btn-anime-watch-status js-anime-watch-status notinmylist"><i class="fa fa-plus-square-o mr4"></i>Add to list</a>
+</td>
+</tr>
+
+<tr class="ranking-list">
+    <td class="rank ac" valign="top">
+    <span class="lightLink top-anime-rank-text rank4">1505</span>
+  </td>
+    <td class="title al va-t word-break">
+    <a class="hoverinfo_trigger fl-l ml12 mr8" href="https://myanimelist.net/anime/1686/Bleach_Movie_1__Memories_of_Nobody" id="#area1686" rel="#info1686">
+      <img width="50" height="70" alt="Anime: Bleach Movie 1: Memories of Nobody" class="lazyload" border="0" data-src="https://myanimelist.cdn-dena.com/r/50x70/images/anime/1/1686.jpg?s=679ba9664e88264d2813489ff8a076c3" data-srcset="https://myanimelist.cdn-dena.com/r/50x70/images/anime/1/1686.jpg?s=679ba9664e88264d2813489ff8a076c3 1x, https://myanimelist.cdn-dena.com/r/100x140/images/anime/1/1686.jpg?s=444fceb24a1f23b3a4ea3e7af2d59a1c 2x" />
+    </a>
+
+    <div class="detail"><div id="area1686">
+  <div id="info1686" rel="a1686" class="hoverinfo"></div>
+</div>
+<div class="di-ib clearfix"><a class="hoverinfo_trigger fl-l fs14 fw-b" href="https://myanimelist.net/anime/1686/Bleach_Movie_1__Memories_of_Nobody" id="#area1686" rel="#info1686">Bleach Movie 1: Memories of Nobody</a><a href="https://myanimelist.net/anime/1686/Bleach_Movie_1__Memories_of_Nobody/video" class="icon-watch-pv ml8" title="Watch Promotional Video">Watch Promotional Video</a></div><br><div class="information di-ib mt4">
+        Movie (1 eps)<br>
+        Dec 2006 - Dec 2006<br>
+        181,573 members
+      </div></div>
+  </td>
+
+    <td class="score ac fs14"><div class="js-top-ranking-score-col di-ib al"><i class="icon-score-star mr4 on"></i><span class="text on">7.55</span></div>
+  </td>
+
+    <td class="your-score ac fs14">
+    <div class="js-top-ranking-your-score-col di-ib al">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=""><i class="icon-score-star mr4 "></i><span class="text ">N/A</span></a>
+</div>
+  </td>
+
+    <td class="status ac">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=" btn-addEdit-large btn-anime-watch-status js-anime-watch-status notinmylist"><i class="fa fa-plus-square-o mr4"></i>Add to list</a>
+</td>
+</tr>
+
+<tr class="ranking-list">
+    <td class="rank ac" valign="top">
+    <span class="lightLink top-anime-rank-text rank4">1506</span>
+  </td>
+    <td class="title al va-t word-break">
+    <a class="hoverinfo_trigger fl-l ml12 mr8" href="https://myanimelist.net/anime/2889/Bleach_Movie_2__The_DiamondDust_Rebellion_-_Mou_Hitotsu_no_Hyourinmaru" id="#area2889" rel="#info2889">
+      <img width="50" height="70" alt="Anime: Bleach Movie 2: The DiamondDust Rebellion - Mou Hitotsu no Hyourinmaru" class="lazyload" border="0" data-src="https://myanimelist.cdn-dena.com/r/50x70/images/anime/12/7499.jpg?s=2b9a6a60686a4267ee867cd758b173ac" data-srcset="https://myanimelist.cdn-dena.com/r/50x70/images/anime/12/7499.jpg?s=2b9a6a60686a4267ee867cd758b173ac 1x, https://myanimelist.cdn-dena.com/r/100x140/images/anime/12/7499.jpg?s=1f53a0aae6b9b1972f3d3950d977ac2a 2x" />
+    </a>
+
+    <div class="detail"><div id="area2889">
+  <div id="info2889" rel="a2889" class="hoverinfo"></div>
+</div>
+<div class="di-ib clearfix"><a class="hoverinfo_trigger fl-l fs14 fw-b" href="https://myanimelist.net/anime/2889/Bleach_Movie_2__The_DiamondDust_Rebellion_-_Mou_Hitotsu_no_Hyourinmaru" id="#area2889" rel="#info2889">Bleach Movie 2: The DiamondDust Rebellion - Mou Hitotsu no Hyourinmaru</a><a href="https://myanimelist.net/anime/2889/Bleach_Movie_2__The_DiamondDust_Rebellion_-_Mou_Hitotsu_no_Hyourinmaru/video" class="icon-watch-pv ml8" title="Watch Promotional Video">Watch Promotional Video</a></div><br><div class="information di-ib mt4">
+        Movie (1 eps)<br>
+        Dec 2007 - Dec 2007<br>
+        161,674 members
+      </div></div>
+  </td>
+
+    <td class="score ac fs14"><div class="js-top-ranking-score-col di-ib al"><i class="icon-score-star mr4 on"></i><span class="text on">7.55</span></div>
+  </td>
+
+    <td class="your-score ac fs14">
+    <div class="js-top-ranking-your-score-col di-ib al">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=""><i class="icon-score-star mr4 "></i><span class="text ">N/A</span></a>
+</div>
+  </td>
+
+    <td class="status ac">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=" btn-addEdit-large btn-anime-watch-status js-anime-watch-status notinmylist"><i class="fa fa-plus-square-o mr4"></i>Add to list</a>
+</td>
+</tr>
+
+<tr class="ranking-list">
+    <td class="rank ac" valign="top">
+    <span class="lightLink top-anime-rank-text rank4">1507</span>
+  </td>
+    <td class="title al va-t word-break">
+    <a class="hoverinfo_trigger fl-l ml12 mr8" href="https://myanimelist.net/anime/31553/Charlotte__Tsuyoimono-tachi" id="#area31553" rel="#info31553">
+      <img width="50" height="70" alt="Anime: Charlotte: Tsuyoimono-tachi" class="lazyload" border="0" data-src="https://myanimelist.cdn-dena.com/r/50x70/images/anime/7/78941.jpg?s=81b3db8d25a7b96cbc300fc2b9fa3ac3" data-srcset="https://myanimelist.cdn-dena.com/r/50x70/images/anime/7/78941.jpg?s=81b3db8d25a7b96cbc300fc2b9fa3ac3 1x, https://myanimelist.cdn-dena.com/r/100x140/images/anime/7/78941.jpg?s=1fbbe222ba2e0898b34f90d47eaf1a0c 2x" />
+    </a>
+
+    <div class="detail"><div id="area31553">
+  <div id="info31553" rel="a31553" class="hoverinfo"></div>
+</div>
+<div class="di-ib clearfix"><a class="hoverinfo_trigger fl-l fs14 fw-b" href="https://myanimelist.net/anime/31553/Charlotte__Tsuyoimono-tachi" id="#area31553" rel="#info31553">Charlotte: Tsuyoimono-tachi</a></div><br><div class="information di-ib mt4">
+        Special (1 eps)<br>
+        Mar 2016 - Mar 2016<br>
+        68,135 members
+      </div></div>
+  </td>
+
+    <td class="score ac fs14"><div class="js-top-ranking-score-col di-ib al"><i class="icon-score-star mr4 on"></i><span class="text on">7.55</span></div>
+  </td>
+
+    <td class="your-score ac fs14">
+    <div class="js-top-ranking-your-score-col di-ib al">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=""><i class="icon-score-star mr4 "></i><span class="text ">N/A</span></a>
+</div>
+  </td>
+
+    <td class="status ac">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=" btn-addEdit-large btn-anime-watch-status js-anime-watch-status notinmylist"><i class="fa fa-plus-square-o mr4"></i>Add to list</a>
+</td>
+</tr>
+
+<tr class="ranking-list">
+    <td class="rank ac" valign="top">
+    <span class="lightLink top-anime-rank-text rank4">1508</span>
+  </td>
+    <td class="title al va-t word-break">
+    <a class="hoverinfo_trigger fl-l ml12 mr8" href="https://myanimelist.net/anime/27601/Chuunibyou_demo_Koi_ga_Shitai_Ren__The_Rikka_Wars" id="#area27601" rel="#info27601">
+      <img width="50" height="70" alt="Anime: Chuunibyou demo Koi ga Shitai! Ren: The Rikka Wars" class="lazyload" border="0" data-src="https://myanimelist.cdn-dena.com/r/50x70/images/anime/3/66827.jpg?s=de6f192cfe3fe042e5406d97393727cc" data-srcset="https://myanimelist.cdn-dena.com/r/50x70/images/anime/3/66827.jpg?s=de6f192cfe3fe042e5406d97393727cc 1x, https://myanimelist.cdn-dena.com/r/100x140/images/anime/3/66827.jpg?s=6207ef6086355259e23c5d6757be7cf6 2x" />
+    </a>
+
+    <div class="detail"><div id="area27601">
+  <div id="info27601" rel="a27601" class="hoverinfo"></div>
+</div>
+<div class="di-ib clearfix"><a class="hoverinfo_trigger fl-l fs14 fw-b" href="https://myanimelist.net/anime/27601/Chuunibyou_demo_Koi_ga_Shitai_Ren__The_Rikka_Wars" id="#area27601" rel="#info27601">Chuunibyou demo Koi ga Shitai! Ren: The Rikka Wars</a></div><br><div class="information di-ib mt4">
+        Special (1 eps)<br>
+        Sep 2014 - Sep 2014<br>
+        55,072 members
+      </div></div>
+  </td>
+
+    <td class="score ac fs14"><div class="js-top-ranking-score-col di-ib al"><i class="icon-score-star mr4 on"></i><span class="text on">7.55</span></div>
+  </td>
+
+    <td class="your-score ac fs14">
+    <div class="js-top-ranking-your-score-col di-ib al">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=""><i class="icon-score-star mr4 "></i><span class="text ">N/A</span></a>
+</div>
+  </td>
+
+    <td class="status ac">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=" btn-addEdit-large btn-anime-watch-status js-anime-watch-status notinmylist"><i class="fa fa-plus-square-o mr4"></i>Add to list</a>
+</td>
+</tr>
+
+<tr class="ranking-list">
+    <td class="rank ac" valign="top">
+    <span class="lightLink top-anime-rank-text rank4">1509</span>
+  </td>
+    <td class="title al va-t word-break">
+    <a class="hoverinfo_trigger fl-l ml12 mr8" href="https://myanimelist.net/anime/9786/Detective_Conan__Conan_vs_Kid_-_Jet_Black_Sniper" id="#area9786" rel="#info9786">
+      <img width="50" height="70" alt="Anime: Detective Conan: Conan vs. Kid - Jet Black Sniper" class="lazyload" border="0" data-src="https://myanimelist.cdn-dena.com/r/50x70/images/anime/13/27102.jpg?s=f29fc9258437cb27dfe0f0f9fb8a3a77" data-srcset="https://myanimelist.cdn-dena.com/r/50x70/images/anime/13/27102.jpg?s=f29fc9258437cb27dfe0f0f9fb8a3a77 1x, https://myanimelist.cdn-dena.com/r/100x140/images/anime/13/27102.jpg?s=9861879501d31cbcbfa6a88cbdbd4542 2x" />
+    </a>
+
+    <div class="detail"><div id="area9786">
+  <div id="info9786" rel="a9786" class="hoverinfo"></div>
+</div>
+<div class="di-ib clearfix"><a class="hoverinfo_trigger fl-l fs14 fw-b" href="https://myanimelist.net/anime/9786/Detective_Conan__Conan_vs_Kid_-_Jet_Black_Sniper" id="#area9786" rel="#info9786">Detective Conan: Conan vs. Kid - Jet Black Sniper</a></div><br><div class="information di-ib mt4">
+        Movie (1 eps)<br>
+        Jul 2006 - Jul 2006<br>
+        3,050 members
+      </div></div>
+  </td>
+
+    <td class="score ac fs14"><div class="js-top-ranking-score-col di-ib al"><i class="icon-score-star mr4 on"></i><span class="text on">7.55</span></div>
+  </td>
+
+    <td class="your-score ac fs14">
+    <div class="js-top-ranking-your-score-col di-ib al">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=""><i class="icon-score-star mr4 "></i><span class="text ">N/A</span></a>
+</div>
+  </td>
+
+    <td class="status ac">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=" btn-addEdit-large btn-anime-watch-status js-anime-watch-status notinmylist"><i class="fa fa-plus-square-o mr4"></i>Add to list</a>
+</td>
+</tr>
+
+<tr class="ranking-list">
+    <td class="rank ac" valign="top">
+    <span class="lightLink top-anime-rank-text rank4">1510</span>
+  </td>
+    <td class="title al va-t word-break">
+    <a class="hoverinfo_trigger fl-l ml12 mr8" href="https://myanimelist.net/anime/17187/Ghost_in_the_Shell__Arise_-_Border_1_Ghost_Pain" id="#area17187" rel="#info17187">
+      <img width="50" height="70" alt="Anime: Ghost in the Shell: Arise - Border:1 Ghost Pain" class="lazyload" border="0" data-src="https://myanimelist.cdn-dena.com/r/50x70/images/anime/8/46673.jpg?s=cc6c9be5e76bf2c94bb41a7d15e14aa5" data-srcset="https://myanimelist.cdn-dena.com/r/50x70/images/anime/8/46673.jpg?s=cc6c9be5e76bf2c94bb41a7d15e14aa5 1x, https://myanimelist.cdn-dena.com/r/100x140/images/anime/8/46673.jpg?s=fc2a29285d8af45b5768bc7ad0734273 2x" />
+    </a>
+
+    <div class="detail"><div id="area17187">
+  <div id="info17187" rel="a17187" class="hoverinfo"></div>
+</div>
+<div class="di-ib clearfix"><a class="hoverinfo_trigger fl-l fs14 fw-b" href="https://myanimelist.net/anime/17187/Ghost_in_the_Shell__Arise_-_Border_1_Ghost_Pain" id="#area17187" rel="#info17187">Ghost in the Shell: Arise - Border:1 Ghost Pain</a><a href="https://myanimelist.net/anime/17187/Ghost_in_the_Shell__Arise_-_Border_1_Ghost_Pain/video" class="icon-watch ml8" title="Watch Episode Video">Watch Episode Video</a></div><br><div class="information di-ib mt4">
+        Movie (1 eps)<br>
+        Jun 2013 - Jun 2013<br>
+        42,787 members
+      </div></div>
+  </td>
+
+    <td class="score ac fs14"><div class="js-top-ranking-score-col di-ib al"><i class="icon-score-star mr4 on"></i><span class="text on">7.55</span></div>
+  </td>
+
+    <td class="your-score ac fs14">
+    <div class="js-top-ranking-your-score-col di-ib al">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=""><i class="icon-score-star mr4 "></i><span class="text ">N/A</span></a>
+</div>
+  </td>
+
+    <td class="status ac">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=" btn-addEdit-large btn-anime-watch-status js-anime-watch-status notinmylist"><i class="fa fa-plus-square-o mr4"></i>Add to list</a>
+</td>
+</tr>
+
+<tr class="ranking-list">
+    <td class="rank ac" valign="top">
+    <span class="lightLink top-anime-rank-text rank4">1511</span>
+  </td>
+    <td class="title al va-t word-break">
+    <a class="hoverinfo_trigger fl-l ml12 mr8" href="https://myanimelist.net/anime/379/Heppoko_Jikken_Animation_Excel♥Saga" id="#area379" rel="#info379">
+      <img width="50" height="70" alt="Anime: Heppoko Jikken Animation Excel♥Saga" class="lazyload" border="0" data-src="https://myanimelist.cdn-dena.com/r/50x70/images/anime/5/19660.jpg?s=a58c9dc7d4634de78dd4e8104b9b399c" data-srcset="https://myanimelist.cdn-dena.com/r/50x70/images/anime/5/19660.jpg?s=a58c9dc7d4634de78dd4e8104b9b399c 1x, https://myanimelist.cdn-dena.com/r/100x140/images/anime/5/19660.jpg?s=f59f89eb3f7392f9d2108ea66d1bd3de 2x" />
+    </a>
+
+    <div class="detail"><div id="area379">
+  <div id="info379" rel="a379" class="hoverinfo"></div>
+</div>
+<div class="di-ib clearfix"><a class="hoverinfo_trigger fl-l fs14 fw-b" href="https://myanimelist.net/anime/379/Heppoko_Jikken_Animation_Excel♥Saga" id="#area379" rel="#info379">Heppoko Jikken Animation Excel♥Saga</a><a href="https://myanimelist.net/anime/379/Heppoko_Jikken_Animation_Excel%E2%99%A5Saga/video" class="icon-watch ml8" title="Watch Episode Video">Watch Episode Video</a></div><br><div class="information di-ib mt4">
+        TV (26 eps)<br>
+        Oct 1999 - Mar 2000<br>
+        80,764 members
+      </div></div>
+  </td>
+
+    <td class="score ac fs14"><div class="js-top-ranking-score-col di-ib al"><i class="icon-score-star mr4 on"></i><span class="text on">7.55</span></div>
+  </td>
+
+    <td class="your-score ac fs14">
+    <div class="js-top-ranking-your-score-col di-ib al">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=""><i class="icon-score-star mr4 "></i><span class="text ">N/A</span></a>
+</div>
+  </td>
+
+    <td class="status ac">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=" btn-addEdit-large btn-anime-watch-status js-anime-watch-status notinmylist"><i class="fa fa-plus-square-o mr4"></i>Add to list</a>
+</td>
+</tr>
+
+<tr class="ranking-list">
+    <td class="rank ac" valign="top">
+    <span class="lightLink top-anime-rank-text rank4">1512</span>
+  </td>
+    <td class="title al va-t word-break">
+    <a class="hoverinfo_trigger fl-l ml12 mr8" href="https://myanimelist.net/anime/1289/Kidou_Keisatsu_Patlabor__New_OVA" id="#area1289" rel="#info1289">
+      <img width="50" height="70" alt="Anime: Kidou Keisatsu Patlabor: New OVA" class="lazyload" border="0" data-src="https://myanimelist.cdn-dena.com/r/50x70/images/anime/7/23499.jpg?s=67b07d315a230e95ccafbe7843a34a34" data-srcset="https://myanimelist.cdn-dena.com/r/50x70/images/anime/7/23499.jpg?s=67b07d315a230e95ccafbe7843a34a34 1x, https://myanimelist.cdn-dena.com/r/100x140/images/anime/7/23499.jpg?s=57c5d42386f3c33542c96391bb5bbe8d 2x" />
+    </a>
+
+    <div class="detail"><div id="area1289">
+  <div id="info1289" rel="a1289" class="hoverinfo"></div>
+</div>
+<div class="di-ib clearfix"><a class="hoverinfo_trigger fl-l fs14 fw-b" href="https://myanimelist.net/anime/1289/Kidou_Keisatsu_Patlabor__New_OVA" id="#area1289" rel="#info1289">Kidou Keisatsu Patlabor: New OVA</a><a href="https://myanimelist.net/anime/1289/Kidou_Keisatsu_Patlabor__New_OVA/video" class="icon-watch ml8" title="Watch Episode Video">Watch Episode Video</a></div><br><div class="information di-ib mt4">
+        OVA (16 eps)<br>
+        Nov 1990 - Apr 1992<br>
+        5,337 members
+      </div></div>
+  </td>
+
+    <td class="score ac fs14"><div class="js-top-ranking-score-col di-ib al"><i class="icon-score-star mr4 on"></i><span class="text on">7.55</span></div>
+  </td>
+
+    <td class="your-score ac fs14">
+    <div class="js-top-ranking-your-score-col di-ib al">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=""><i class="icon-score-star mr4 "></i><span class="text ">N/A</span></a>
+</div>
+  </td>
+
+    <td class="status ac">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=" btn-addEdit-large btn-anime-watch-status js-anime-watch-status notinmylist"><i class="fa fa-plus-square-o mr4"></i>Add to list</a>
+</td>
+</tr>
+
+<tr class="ranking-list">
+    <td class="rank ac" valign="top">
+    <span class="lightLink top-anime-rank-text rank4">1513</span>
+  </td>
+    <td class="title al va-t word-break">
+    <a class="hoverinfo_trigger fl-l ml12 mr8" href="https://myanimelist.net/anime/3392/Kiniro_no_Corda__Primo_Passo_-_Hitonatsu_no_Encore" id="#area3392" rel="#info3392">
+      <img width="50" height="70" alt="Anime: Kiniro no Corda: Primo Passo - Hitonatsu no Encore" class="lazyload" border="0" data-src="https://myanimelist.cdn-dena.com/r/50x70/images/anime/6/10567.jpg?s=87294965ee9ad037146c5e572bdd72ac" data-srcset="https://myanimelist.cdn-dena.com/r/50x70/images/anime/6/10567.jpg?s=87294965ee9ad037146c5e572bdd72ac 1x, https://myanimelist.cdn-dena.com/r/100x140/images/anime/6/10567.jpg?s=0ad2c644b57ccf4c93db2623d3412833 2x" />
+    </a>
+
+    <div class="detail"><div id="area3392">
+  <div id="info3392" rel="a3392" class="hoverinfo"></div>
+</div>
+<div class="di-ib clearfix"><a class="hoverinfo_trigger fl-l fs14 fw-b" href="https://myanimelist.net/anime/3392/Kiniro_no_Corda__Primo_Passo_-_Hitonatsu_no_Encore" id="#area3392" rel="#info3392">Kiniro no Corda: Primo Passo - Hitonatsu no Encore</a></div><br><div class="information di-ib mt4">
+        Special (1 eps)<br>
+        Mar 2007 - Mar 2007<br>
+        19,665 members
+      </div></div>
+  </td>
+
+    <td class="score ac fs14"><div class="js-top-ranking-score-col di-ib al"><i class="icon-score-star mr4 on"></i><span class="text on">7.55</span></div>
+  </td>
+
+    <td class="your-score ac fs14">
+    <div class="js-top-ranking-your-score-col di-ib al">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=""><i class="icon-score-star mr4 "></i><span class="text ">N/A</span></a>
+</div>
+  </td>
+
+    <td class="status ac">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=" btn-addEdit-large btn-anime-watch-status js-anime-watch-status notinmylist"><i class="fa fa-plus-square-o mr4"></i>Add to list</a>
+</td>
+</tr>
+
+<tr class="ranking-list">
+    <td class="rank ac" valign="top">
+    <span class="lightLink top-anime-rank-text rank4">1514</span>
+  </td>
+    <td class="title al va-t word-break">
+    <a class="hoverinfo_trigger fl-l ml12 mr8" href="https://myanimelist.net/anime/32949/Kuzu_no_Honkai" id="#area32949" rel="#info32949">
+      <img width="50" height="70" alt="Anime: Kuzu no Honkai" class="lazyload" border="0" data-src="https://myanimelist.cdn-dena.com/r/50x70/images/anime/5/83937.jpg?s=027a32d2e68363c1ec746a0308f5617f" data-srcset="https://myanimelist.cdn-dena.com/r/50x70/images/anime/5/83937.jpg?s=027a32d2e68363c1ec746a0308f5617f 1x, https://myanimelist.cdn-dena.com/r/100x140/images/anime/5/83937.jpg?s=11bbaecaf5df1e0b985164aef2e88d1a 2x" />
+    </a>
+
+    <div class="detail"><div id="area32949">
+  <div id="info32949" rel="a32949" class="hoverinfo"></div>
+</div>
+<div class="di-ib clearfix"><a class="hoverinfo_trigger fl-l fs14 fw-b" href="https://myanimelist.net/anime/32949/Kuzu_no_Honkai" id="#area32949" rel="#info32949">Kuzu no Honkai</a><a href="https://myanimelist.net/anime/32949/Kuzu_no_Honkai/video" class="icon-watch-pv ml8" title="Watch Promotional Video">Watch Promotional Video</a></div><br><div class="information di-ib mt4">
+        TV (12 eps)<br>
+        Jan 2017 - Mar 2017<br>
+        269,382 members
+      </div></div>
+  </td>
+
+    <td class="score ac fs14"><div class="js-top-ranking-score-col di-ib al"><i class="icon-score-star mr4 on"></i><span class="text on">7.55</span></div>
+  </td>
+
+    <td class="your-score ac fs14">
+    <div class="js-top-ranking-your-score-col di-ib al">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=""><i class="icon-score-star mr4 "></i><span class="text ">N/A</span></a>
+</div>
+  </td>
+
+    <td class="status ac">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=" btn-addEdit-large btn-anime-watch-status js-anime-watch-status notinmylist"><i class="fa fa-plus-square-o mr4"></i>Add to list</a>
+</td>
+</tr>
+
+<tr class="ranking-list">
+    <td class="rank ac" valign="top">
+    <span class="lightLink top-anime-rank-text rank4">1515</span>
+  </td>
+    <td class="title al va-t word-break">
+    <a class="hoverinfo_trigger fl-l ml12 mr8" href="https://myanimelist.net/anime/6187/Nodame_Cantabile_OVA" id="#area6187" rel="#info6187">
+      <img width="50" height="70" alt="Anime: Nodame Cantabile OVA" class="lazyload" border="0" data-src="https://myanimelist.cdn-dena.com/r/50x70/images/anime/10/18677.jpg?s=77b759d89a5421bddb6d587cf8e8369e" data-srcset="https://myanimelist.cdn-dena.com/r/50x70/images/anime/10/18677.jpg?s=77b759d89a5421bddb6d587cf8e8369e 1x, https://myanimelist.cdn-dena.com/r/100x140/images/anime/10/18677.jpg?s=ce47061367f4e243ad1c7dd8e91329d5 2x" />
+    </a>
+
+    <div class="detail"><div id="area6187">
+  <div id="info6187" rel="a6187" class="hoverinfo"></div>
+</div>
+<div class="di-ib clearfix"><a class="hoverinfo_trigger fl-l fs14 fw-b" href="https://myanimelist.net/anime/6187/Nodame_Cantabile_OVA" id="#area6187" rel="#info6187">Nodame Cantabile OVA</a></div><br><div class="information di-ib mt4">
+        OVA (1 eps)<br>
+        Aug 2009 - Aug 2009<br>
+        20,901 members
+      </div></div>
+  </td>
+
+    <td class="score ac fs14"><div class="js-top-ranking-score-col di-ib al"><i class="icon-score-star mr4 on"></i><span class="text on">7.55</span></div>
+  </td>
+
+    <td class="your-score ac fs14">
+    <div class="js-top-ranking-your-score-col di-ib al">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=""><i class="icon-score-star mr4 "></i><span class="text ">N/A</span></a>
+</div>
+  </td>
+
+    <td class="status ac">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=" btn-addEdit-large btn-anime-watch-status js-anime-watch-status notinmylist"><i class="fa fa-plus-square-o mr4"></i>Add to list</a>
+</td>
+</tr>
+
+<tr class="ranking-list">
+    <td class="rank ac" valign="top">
+    <span class="lightLink top-anime-rank-text rank4">1516</span>
+  </td>
+    <td class="title al va-t word-break">
+    <a class="hoverinfo_trigger fl-l ml12 mr8" href="https://myanimelist.net/anime/1047/On_Your_Mark" id="#area1047" rel="#info1047">
+      <img width="50" height="70" alt="Anime: On Your Mark" class="lazyload" border="0" data-src="https://myanimelist.cdn-dena.com/r/50x70/images/anime/10/81234.jpg?s=e4a4e0da1fd4850aa9ca5aa2704cb585" data-srcset="https://myanimelist.cdn-dena.com/r/50x70/images/anime/10/81234.jpg?s=e4a4e0da1fd4850aa9ca5aa2704cb585 1x, https://myanimelist.cdn-dena.com/r/100x140/images/anime/10/81234.jpg?s=cc61992ff505a774d2056623ae921a06 2x" />
+    </a>
+
+    <div class="detail"><div id="area1047">
+  <div id="info1047" rel="a1047" class="hoverinfo"></div>
+</div>
+<div class="di-ib clearfix"><a class="hoverinfo_trigger fl-l fs14 fw-b" href="https://myanimelist.net/anime/1047/On_Your_Mark" id="#area1047" rel="#info1047">On Your Mark</a></div><br><div class="information di-ib mt4">
+        Music (1 eps)<br>
+        Jul 1995 - Jul 1995<br>
+        18,542 members
+      </div></div>
+  </td>
+
+    <td class="score ac fs14"><div class="js-top-ranking-score-col di-ib al"><i class="icon-score-star mr4 on"></i><span class="text on">7.55</span></div>
+  </td>
+
+    <td class="your-score ac fs14">
+    <div class="js-top-ranking-your-score-col di-ib al">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=""><i class="icon-score-star mr4 "></i><span class="text ">N/A</span></a>
+</div>
+  </td>
+
+    <td class="status ac">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=" btn-addEdit-large btn-anime-watch-status js-anime-watch-status notinmylist"><i class="fa fa-plus-square-o mr4"></i>Add to list</a>
+</td>
+</tr>
+
+<tr class="ranking-list">
+    <td class="rank ac" valign="top">
+    <span class="lightLink top-anime-rank-text rank4">1517</span>
+  </td>
+    <td class="title al va-t word-break">
+    <a class="hoverinfo_trigger fl-l ml12 mr8" href="https://myanimelist.net/anime/10020/Ore_no_Imouto_ga_Konnani_Kawaii_Wake_ga_Nai_Specials" id="#area10020" rel="#info10020">
+      <img width="50" height="70" alt="Anime: Ore no Imouto ga Konnani Kawaii Wake ga Nai Specials" class="lazyload" border="0" data-src="https://myanimelist.cdn-dena.com/r/50x70/images/anime/8/29734.jpg?s=3eaabf5237d211ccdbbc69cda3c8a25c" data-srcset="https://myanimelist.cdn-dena.com/r/50x70/images/anime/8/29734.jpg?s=3eaabf5237d211ccdbbc69cda3c8a25c 1x, https://myanimelist.cdn-dena.com/r/100x140/images/anime/8/29734.jpg?s=4b1a28454f004043ccaa5cf724c85aa7 2x" />
+    </a>
+
+    <div class="detail"><div id="area10020">
+  <div id="info10020" rel="a10020" class="hoverinfo"></div>
+</div>
+<div class="di-ib clearfix"><a class="hoverinfo_trigger fl-l fs14 fw-b" href="https://myanimelist.net/anime/10020/Ore_no_Imouto_ga_Konnani_Kawaii_Wake_ga_Nai_Specials" id="#area10020" rel="#info10020">Ore no Imouto ga Konnani Kawaii Wake ga Nai Specials</a></div><br><div class="information di-ib mt4">
+        ONA (4 eps)<br>
+        Feb 2011 - May 2011<br>
+        132,365 members
+      </div></div>
+  </td>
+
+    <td class="score ac fs14"><div class="js-top-ranking-score-col di-ib al"><i class="icon-score-star mr4 on"></i><span class="text on">7.55</span></div>
+  </td>
+
+    <td class="your-score ac fs14">
+    <div class="js-top-ranking-your-score-col di-ib al">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=""><i class="icon-score-star mr4 "></i><span class="text ">N/A</span></a>
+</div>
+  </td>
+
+    <td class="status ac">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=" btn-addEdit-large btn-anime-watch-status js-anime-watch-status notinmylist"><i class="fa fa-plus-square-o mr4"></i>Add to list</a>
+</td>
+</tr>
+
+<tr class="ranking-list">
+    <td class="rank ac" valign="top">
+    <span class="lightLink top-anime-rank-text rank4">1518</span>
+  </td>
+    <td class="title al va-t word-break">
+    <a class="hoverinfo_trigger fl-l ml12 mr8" href="https://myanimelist.net/anime/13587/Persona_4_the_Animation__No_One_is_Alone" id="#area13587" rel="#info13587">
+      <img width="50" height="70" alt="Anime: Persona 4 the Animation: No One is Alone" class="lazyload" border="0" data-src="https://myanimelist.cdn-dena.com/r/50x70/images/anime/5/37787.jpg?s=ec25c865561c3ba1cde70393fe21fca7" data-srcset="https://myanimelist.cdn-dena.com/r/50x70/images/anime/5/37787.jpg?s=ec25c865561c3ba1cde70393fe21fca7 1x, https://myanimelist.cdn-dena.com/r/100x140/images/anime/5/37787.jpg?s=f4bda26c581f65699ad9533f692d94f2 2x" />
+    </a>
+
+    <div class="detail"><div id="area13587">
+  <div id="info13587" rel="a13587" class="hoverinfo"></div>
+</div>
+<div class="di-ib clearfix"><a class="hoverinfo_trigger fl-l fs14 fw-b" href="https://myanimelist.net/anime/13587/Persona_4_the_Animation__No_One_is_Alone" id="#area13587" rel="#info13587">Persona 4 the Animation: No One is Alone</a></div><br><div class="information di-ib mt4">
+        Special (1 eps)<br>
+        Aug 2012 - Aug 2012<br>
+        32,829 members
+      </div></div>
+  </td>
+
+    <td class="score ac fs14"><div class="js-top-ranking-score-col di-ib al"><i class="icon-score-star mr4 on"></i><span class="text on">7.55</span></div>
+  </td>
+
+    <td class="your-score ac fs14">
+    <div class="js-top-ranking-your-score-col di-ib al">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=""><i class="icon-score-star mr4 "></i><span class="text ">N/A</span></a>
+</div>
+  </td>
+
+    <td class="status ac">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=" btn-addEdit-large btn-anime-watch-status js-anime-watch-status notinmylist"><i class="fa fa-plus-square-o mr4"></i>Add to list</a>
+</td>
+</tr>
+
+<tr class="ranking-list">
+    <td class="rank ac" valign="top">
+    <span class="lightLink top-anime-rank-text rank4">1519</span>
+  </td>
+    <td class="title al va-t word-break">
+    <a class="hoverinfo_trigger fl-l ml12 mr8" href="https://myanimelist.net/anime/10257/Pretty_Rhythm__Aurora_Dream" id="#area10257" rel="#info10257">
+      <img width="50" height="70" alt="Anime: Pretty Rhythm: Aurora Dream" class="lazyload" border="0" data-src="https://myanimelist.cdn-dena.com/r/50x70/images/anime/9/36423.jpg?s=387a6437b929e3bd82b200d21d5d65db" data-srcset="https://myanimelist.cdn-dena.com/r/50x70/images/anime/9/36423.jpg?s=387a6437b929e3bd82b200d21d5d65db 1x, https://myanimelist.cdn-dena.com/r/100x140/images/anime/9/36423.jpg?s=8edbf019818e7879fd7adec296fe5fa1 2x" />
+    </a>
+
+    <div class="detail"><div id="area10257">
+  <div id="info10257" rel="a10257" class="hoverinfo"></div>
+</div>
+<div class="di-ib clearfix"><a class="hoverinfo_trigger fl-l fs14 fw-b" href="https://myanimelist.net/anime/10257/Pretty_Rhythm__Aurora_Dream" id="#area10257" rel="#info10257">Pretty Rhythm: Aurora Dream</a></div><br><div class="information di-ib mt4">
+        TV (51 eps)<br>
+        Apr 2011 - Mar 2012<br>
+        12,354 members
+      </div></div>
+  </td>
+
+    <td class="score ac fs14"><div class="js-top-ranking-score-col di-ib al"><i class="icon-score-star mr4 on"></i><span class="text on">7.55</span></div>
+  </td>
+
+    <td class="your-score ac fs14">
+    <div class="js-top-ranking-your-score-col di-ib al">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=""><i class="icon-score-star mr4 "></i><span class="text ">N/A</span></a>
+</div>
+  </td>
+
+    <td class="status ac">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=" btn-addEdit-large btn-anime-watch-status js-anime-watch-status notinmylist"><i class="fa fa-plus-square-o mr4"></i>Add to list</a>
+</td>
+</tr>
+
+<tr class="ranking-list">
+    <td class="rank ac" valign="top">
+    <span class="lightLink top-anime-rank-text rank4">1520</span>
+  </td>
+    <td class="title al va-t word-break">
+    <a class="hoverinfo_trigger fl-l ml12 mr8" href="https://myanimelist.net/anime/5854/Shin_Chou_Kyou_Ryo__Condor_Hero_III" id="#area5854" rel="#info5854">
+      <img width="50" height="70" alt="Anime: Shin Chou Kyou Ryo: Condor Hero III" class="lazyload" border="0" data-src="https://myanimelist.cdn-dena.com/r/50x70/images/anime/1383/90702.jpg?s=e675a2837ff687ec8a499734c3fba1d4" data-srcset="https://myanimelist.cdn-dena.com/r/50x70/images/anime/1383/90702.jpg?s=e675a2837ff687ec8a499734c3fba1d4 1x, https://myanimelist.cdn-dena.com/r/100x140/images/anime/1383/90702.jpg?s=bd18b8d7354bd77148162fbaceabd53a 2x" />
+    </a>
+
+    <div class="detail"><div id="area5854">
+  <div id="info5854" rel="a5854" class="hoverinfo"></div>
+</div>
+<div class="di-ib clearfix"><a class="hoverinfo_trigger fl-l fs14 fw-b" href="https://myanimelist.net/anime/5854/Shin_Chou_Kyou_Ryo__Condor_Hero_III" id="#area5854" rel="#info5854">Shin Chou Kyou Ryo: Condor Hero III</a></div><br><div class="information di-ib mt4">
+        TV (26 eps)<br>
+        Apr 2008 - May 2008<br>
+        1,860 members
+      </div></div>
+  </td>
+
+    <td class="score ac fs14"><div class="js-top-ranking-score-col di-ib al"><i class="icon-score-star mr4 on"></i><span class="text on">7.55</span></div>
+  </td>
+
+    <td class="your-score ac fs14">
+    <div class="js-top-ranking-your-score-col di-ib al">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=""><i class="icon-score-star mr4 "></i><span class="text ">N/A</span></a>
+</div>
+  </td>
+
+    <td class="status ac">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=" btn-addEdit-large btn-anime-watch-status js-anime-watch-status notinmylist"><i class="fa fa-plus-square-o mr4"></i>Add to list</a>
+</td>
+</tr>
+
+<tr class="ranking-list">
+    <td class="rank ac" valign="top">
+    <span class="lightLink top-anime-rank-text rank4">1521</span>
+  </td>
+    <td class="title al va-t word-break">
+    <a class="hoverinfo_trigger fl-l ml12 mr8" href="https://myanimelist.net/anime/30736/Shingeki_no_Bahamut__Virgin_Soul" id="#area30736" rel="#info30736">
+      <img width="50" height="70" alt="Anime: Shingeki no Bahamut: Virgin Soul" class="lazyload" border="0" data-src="https://myanimelist.cdn-dena.com/r/50x70/images/anime/13/85564.jpg?s=c784fde4b8a8adafbb74a9ebc0c0ab5b" data-srcset="https://myanimelist.cdn-dena.com/r/50x70/images/anime/13/85564.jpg?s=c784fde4b8a8adafbb74a9ebc0c0ab5b 1x, https://myanimelist.cdn-dena.com/r/100x140/images/anime/13/85564.jpg?s=5c77cae4cf60a8fd526ea7daa982fb4f 2x" />
+    </a>
+
+    <div class="detail"><div id="area30736">
+  <div id="info30736" rel="a30736" class="hoverinfo"></div>
+</div>
+<div class="di-ib clearfix"><a class="hoverinfo_trigger fl-l fs14 fw-b" href="https://myanimelist.net/anime/30736/Shingeki_no_Bahamut__Virgin_Soul" id="#area30736" rel="#info30736">Shingeki no Bahamut: Virgin Soul</a><a href="https://myanimelist.net/anime/30736/Shingeki_no_Bahamut__Virgin_Soul/video" class="icon-watch-pv ml8" title="Watch Promotional Video">Watch Promotional Video</a></div><br><div class="information di-ib mt4">
+        TV (24 eps)<br>
+        Apr 2017 - Sep 2017<br>
+        132,366 members
+      </div></div>
+  </td>
+
+    <td class="score ac fs14"><div class="js-top-ranking-score-col di-ib al"><i class="icon-score-star mr4 on"></i><span class="text on">7.55</span></div>
+  </td>
+
+    <td class="your-score ac fs14">
+    <div class="js-top-ranking-your-score-col di-ib al">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=""><i class="icon-score-star mr4 "></i><span class="text ">N/A</span></a>
+</div>
+  </td>
+
+    <td class="status ac">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=" btn-addEdit-large btn-anime-watch-status js-anime-watch-status notinmylist"><i class="fa fa-plus-square-o mr4"></i>Add to list</a>
+</td>
+</tr>
+
+<tr class="ranking-list">
+    <td class="rank ac" valign="top">
+    <span class="lightLink top-anime-rank-text rank4">1522</span>
+  </td>
+    <td class="title al va-t word-break">
+    <a class="hoverinfo_trigger fl-l ml12 mr8" href="https://myanimelist.net/anime/8557/Shinryaku_Ika_Musume" id="#area8557" rel="#info8557">
+      <img width="50" height="70" alt="Anime: Shinryaku! Ika Musume" class="lazyload" border="0" data-src="https://myanimelist.cdn-dena.com/r/50x70/images/anime/13/27126.jpg?s=dbf5e868f42fa7689e431fba32e37c91" data-srcset="https://myanimelist.cdn-dena.com/r/50x70/images/anime/13/27126.jpg?s=dbf5e868f42fa7689e431fba32e37c91 1x, https://myanimelist.cdn-dena.com/r/100x140/images/anime/13/27126.jpg?s=dff29def9a8e272a858955c39c2e3171 2x" />
+    </a>
+
+    <div class="detail"><div id="area8557">
+  <div id="info8557" rel="a8557" class="hoverinfo"></div>
+</div>
+<div class="di-ib clearfix"><a class="hoverinfo_trigger fl-l fs14 fw-b" href="https://myanimelist.net/anime/8557/Shinryaku_Ika_Musume" id="#area8557" rel="#info8557">Shinryaku! Ika Musume</a><a href="https://myanimelist.net/anime/8557/Shinryaku_Ika_Musume/video" class="icon-watch ml8" title="Watch Episode Video">Watch Episode Video</a></div><br><div class="information di-ib mt4">
+        TV (12 eps)<br>
+        Oct 2010 - Dec 2010<br>
+        125,058 members
+      </div></div>
+  </td>
+
+    <td class="score ac fs14"><div class="js-top-ranking-score-col di-ib al"><i class="icon-score-star mr4 on"></i><span class="text on">7.55</span></div>
+  </td>
+
+    <td class="your-score ac fs14">
+    <div class="js-top-ranking-your-score-col di-ib al">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=""><i class="icon-score-star mr4 "></i><span class="text ">N/A</span></a>
+</div>
+  </td>
+
+    <td class="status ac">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=" btn-addEdit-large btn-anime-watch-status js-anime-watch-status notinmylist"><i class="fa fa-plus-square-o mr4"></i>Add to list</a>
+</td>
+</tr>
+
+<tr class="ranking-list">
+    <td class="rank ac" valign="top">
+    <span class="lightLink top-anime-rank-text rank4">1523</span>
+  </td>
+    <td class="title al va-t word-break">
+    <a class="hoverinfo_trigger fl-l ml12 mr8" href="https://myanimelist.net/anime/2923/Shugo_Chara" id="#area2923" rel="#info2923">
+      <img width="50" height="70" alt="Anime: Shugo Chara!" class="lazyload" border="0" data-src="https://myanimelist.cdn-dena.com/r/50x70/images/anime/7/5061.jpg?s=b3b3dc6dbb5650069d45fc2da191b4d6" data-srcset="https://myanimelist.cdn-dena.com/r/50x70/images/anime/7/5061.jpg?s=b3b3dc6dbb5650069d45fc2da191b4d6 1x, https://myanimelist.cdn-dena.com/r/100x140/images/anime/7/5061.jpg?s=c90900fcd23e978058c2815b76dc6299 2x" />
+    </a>
+
+    <div class="detail"><div id="area2923">
+  <div id="info2923" rel="a2923" class="hoverinfo"></div>
+</div>
+<div class="di-ib clearfix"><a class="hoverinfo_trigger fl-l fs14 fw-b" href="https://myanimelist.net/anime/2923/Shugo_Chara" id="#area2923" rel="#info2923">Shugo Chara!</a><a href="https://myanimelist.net/anime/2923/Shugo_Chara/video" class="icon-watch ml8" title="Watch Episode Video">Watch Episode Video</a></div><br><div class="information di-ib mt4">
+        TV (51 eps)<br>
+        Oct 2007 - Sep 2008<br>
+        147,181 members
+      </div><div class="manga-store-information">
+          <a class="link" href="https://myanimelist.net/store/manga_volume/605/Shugo_Chara_Volume_1">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i> <span class="fw-b">Manga Store</span>
+            <span class="volume">Volume 1</span>
+            <span class="price">€10.99</span>          </a><a class="button-preview" href="https://myanimelist.net/store/viewer/1/605/preview" target="_blank">Preview</a></div></div>
+  </td>
+
+    <td class="score ac fs14"><div class="js-top-ranking-score-col di-ib al"><i class="icon-score-star mr4 on"></i><span class="text on">7.55</span></div>
+  </td>
+
+    <td class="your-score ac fs14">
+    <div class="js-top-ranking-your-score-col di-ib al">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=""><i class="icon-score-star mr4 "></i><span class="text ">N/A</span></a>
+</div>
+  </td>
+
+    <td class="status ac">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=" btn-addEdit-large btn-anime-watch-status js-anime-watch-status notinmylist"><i class="fa fa-plus-square-o mr4"></i>Add to list</a>
+</td>
+</tr>
+
+<tr class="ranking-list">
+    <td class="rank ac" valign="top">
+    <span class="lightLink top-anime-rank-text rank4">1524</span>
+  </td>
+    <td class="title al va-t word-break">
+    <a class="hoverinfo_trigger fl-l ml12 mr8" href="https://myanimelist.net/anime/5262/Shugo_Chara_Doki" id="#area5262" rel="#info5262">
+      <img width="50" height="70" alt="Anime: Shugo Chara!! Doki" class="lazyload" border="0" data-src="https://myanimelist.cdn-dena.com/r/50x70/images/anime/11/10645.jpg?s=2fb8000a42a5adcf0c7dd8122120c032" data-srcset="https://myanimelist.cdn-dena.com/r/50x70/images/anime/11/10645.jpg?s=2fb8000a42a5adcf0c7dd8122120c032 1x, https://myanimelist.cdn-dena.com/r/100x140/images/anime/11/10645.jpg?s=3b50e0984a7f8d9fd8da5a6c8a9d8128 2x" />
+    </a>
+
+    <div class="detail"><div id="area5262">
+  <div id="info5262" rel="a5262" class="hoverinfo"></div>
+</div>
+<div class="di-ib clearfix"><a class="hoverinfo_trigger fl-l fs14 fw-b" href="https://myanimelist.net/anime/5262/Shugo_Chara_Doki" id="#area5262" rel="#info5262">Shugo Chara!! Doki</a><a href="https://myanimelist.net/anime/5262/Shugo_Chara_Doki/video" class="icon-watch ml8" title="Watch Episode Video">Watch Episode Video</a></div><br><div class="information di-ib mt4">
+        TV (51 eps)<br>
+        Oct 2008 - Sep 2009<br>
+        72,066 members
+      </div><div class="manga-store-information">
+          <a class="link" href="https://myanimelist.net/store/manga_volume/605/Shugo_Chara_Volume_1">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i> <span class="fw-b">Manga Store</span>
+            <span class="volume">Volume 1</span>
+            <span class="price">€10.99</span>          </a><a class="button-preview" href="https://myanimelist.net/store/viewer/1/605/preview" target="_blank">Preview</a></div></div>
+  </td>
+
+    <td class="score ac fs14"><div class="js-top-ranking-score-col di-ib al"><i class="icon-score-star mr4 on"></i><span class="text on">7.55</span></div>
+  </td>
+
+    <td class="your-score ac fs14">
+    <div class="js-top-ranking-your-score-col di-ib al">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=""><i class="icon-score-star mr4 "></i><span class="text ">N/A</span></a>
+</div>
+  </td>
+
+    <td class="status ac">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=" btn-addEdit-large btn-anime-watch-status js-anime-watch-status notinmylist"><i class="fa fa-plus-square-o mr4"></i>Add to list</a>
+</td>
+</tr>
+
+<tr class="ranking-list">
+    <td class="rank ac" valign="top">
+    <span class="lightLink top-anime-rank-text rank4">1525</span>
+  </td>
+    <td class="title al va-t word-break">
+    <a class="hoverinfo_trigger fl-l ml12 mr8" href="https://myanimelist.net/anime/5958/Sora_no_Otoshimono" id="#area5958" rel="#info5958">
+      <img width="50" height="70" alt="Anime: Sora no Otoshimono" class="lazyload" border="0" data-src="https://myanimelist.cdn-dena.com/r/50x70/images/anime/5/50307.jpg?s=b488dfd79bc7f2da7501cdfa8cd8d319" data-srcset="https://myanimelist.cdn-dena.com/r/50x70/images/anime/5/50307.jpg?s=b488dfd79bc7f2da7501cdfa8cd8d319 1x, https://myanimelist.cdn-dena.com/r/100x140/images/anime/5/50307.jpg?s=983cd05a80c824563030166a1af8aadd 2x" />
+    </a>
+
+    <div class="detail"><div id="area5958">
+  <div id="info5958" rel="a5958" class="hoverinfo"></div>
+</div>
+<div class="di-ib clearfix"><a class="hoverinfo_trigger fl-l fs14 fw-b" href="https://myanimelist.net/anime/5958/Sora_no_Otoshimono" id="#area5958" rel="#info5958">Sora no Otoshimono</a><a href="https://myanimelist.net/anime/5958/Sora_no_Otoshimono/video" class="icon-watch-pv ml8" title="Watch Promotional Video">Watch Promotional Video</a></div><br><div class="information di-ib mt4">
+        TV (13 eps)<br>
+        Oct 2009 - Dec 2009<br>
+        305,839 members
+      </div></div>
+  </td>
+
+    <td class="score ac fs14"><div class="js-top-ranking-score-col di-ib al"><i class="icon-score-star mr4 on"></i><span class="text on">7.55</span></div>
+  </td>
+
+    <td class="your-score ac fs14">
+    <div class="js-top-ranking-your-score-col di-ib al">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=""><i class="icon-score-star mr4 "></i><span class="text ">N/A</span></a>
+</div>
+  </td>
+
+    <td class="status ac">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=" btn-addEdit-large btn-anime-watch-status js-anime-watch-status notinmylist"><i class="fa fa-plus-square-o mr4"></i>Add to list</a>
+</td>
+</tr>
+
+<tr class="ranking-list">
+    <td class="rank ac" valign="top">
+    <span class="lightLink top-anime-rank-text rank4">1526</span>
+  </td>
+    <td class="title al va-t word-break">
+    <a class="hoverinfo_trigger fl-l ml12 mr8" href="https://myanimelist.net/anime/7858/Sora_no_Otoshimono__Project_Pink" id="#area7858" rel="#info7858">
+      <img width="50" height="70" alt="Anime: Sora no Otoshimono: Project Pink" class="lazyload" border="0" data-src="https://myanimelist.cdn-dena.com/r/50x70/images/anime/2/19135.jpg?s=9c9f9c9d4b66dc7aeb13db59842b7b01" data-srcset="https://myanimelist.cdn-dena.com/r/50x70/images/anime/2/19135.jpg?s=9c9f9c9d4b66dc7aeb13db59842b7b01 1x, https://myanimelist.cdn-dena.com/r/100x140/images/anime/2/19135.jpg?s=e1200ea518124f85c0019634a0f1e794 2x" />
+    </a>
+
+    <div class="detail"><div id="area7858">
+  <div id="info7858" rel="a7858" class="hoverinfo"></div>
+</div>
+<div class="di-ib clearfix"><a class="hoverinfo_trigger fl-l fs14 fw-b" href="https://myanimelist.net/anime/7858/Sora_no_Otoshimono__Project_Pink" id="#area7858" rel="#info7858">Sora no Otoshimono: Project Pink</a></div><br><div class="information di-ib mt4">
+        OVA (1 eps)<br>
+        Sep 2010 - Sep 2010<br>
+        77,832 members
+      </div></div>
+  </td>
+
+    <td class="score ac fs14"><div class="js-top-ranking-score-col di-ib al"><i class="icon-score-star mr4 on"></i><span class="text on">7.55</span></div>
+  </td>
+
+    <td class="your-score ac fs14">
+    <div class="js-top-ranking-your-score-col di-ib al">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=""><i class="icon-score-star mr4 "></i><span class="text ">N/A</span></a>
+</div>
+  </td>
+
+    <td class="status ac">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=" btn-addEdit-large btn-anime-watch-status js-anime-watch-status notinmylist"><i class="fa fa-plus-square-o mr4"></i>Add to list</a>
+</td>
+</tr>
+
+<tr class="ranking-list">
+    <td class="rank ac" valign="top">
+    <span class="lightLink top-anime-rank-text rank4">1527</span>
+  </td>
+    <td class="title al va-t word-break">
+    <a class="hoverinfo_trigger fl-l ml12 mr8" href="https://myanimelist.net/anime/15731/Tamayura__More_Aggressive" id="#area15731" rel="#info15731">
+      <img width="50" height="70" alt="Anime: Tamayura: More Aggressive" class="lazyload" border="0" data-src="https://myanimelist.cdn-dena.com/r/50x70/images/anime/3/53895.jpg?s=a8b5604a315c1157fd1cec5cd34e1045" data-srcset="https://myanimelist.cdn-dena.com/r/50x70/images/anime/3/53895.jpg?s=a8b5604a315c1157fd1cec5cd34e1045 1x, https://myanimelist.cdn-dena.com/r/100x140/images/anime/3/53895.jpg?s=e3c7f5337217af732f14b4cce25ad79c 2x" />
+    </a>
+
+    <div class="detail"><div id="area15731">
+  <div id="info15731" rel="a15731" class="hoverinfo"></div>
+</div>
+<div class="di-ib clearfix"><a class="hoverinfo_trigger fl-l fs14 fw-b" href="https://myanimelist.net/anime/15731/Tamayura__More_Aggressive" id="#area15731" rel="#info15731">Tamayura: More Aggressive</a><a href="https://myanimelist.net/anime/15731/Tamayura__More_Aggressive/video" class="icon-watch-pv ml8" title="Watch Promotional Video">Watch Promotional Video</a></div><br><div class="information di-ib mt4">
+        TV (12 eps)<br>
+        Jul 2013 - Sep 2013<br>
+        13,457 members
+      </div></div>
+  </td>
+
+    <td class="score ac fs14"><div class="js-top-ranking-score-col di-ib al"><i class="icon-score-star mr4 on"></i><span class="text on">7.55</span></div>
+  </td>
+
+    <td class="your-score ac fs14">
+    <div class="js-top-ranking-your-score-col di-ib al">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=""><i class="icon-score-star mr4 "></i><span class="text ">N/A</span></a>
+</div>
+  </td>
+
+    <td class="status ac">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=" btn-addEdit-large btn-anime-watch-status js-anime-watch-status notinmylist"><i class="fa fa-plus-square-o mr4"></i>Add to list</a>
+</td>
+</tr>
+
+<tr class="ranking-list">
+    <td class="rank ac" valign="top">
+    <span class="lightLink top-anime-rank-text rank4">1528</span>
+  </td>
+    <td class="title al va-t word-break">
+    <a class="hoverinfo_trigger fl-l ml12 mr8" href="https://myanimelist.net/anime/3613/Toshokan_Sensou" id="#area3613" rel="#info3613">
+      <img width="50" height="70" alt="Anime: Toshokan Sensou" class="lazyload" border="0" data-src="https://myanimelist.cdn-dena.com/r/50x70/images/anime/5/79595.jpg?s=cb966a115519dd65dc955067eb360ee7" data-srcset="https://myanimelist.cdn-dena.com/r/50x70/images/anime/5/79595.jpg?s=cb966a115519dd65dc955067eb360ee7 1x, https://myanimelist.cdn-dena.com/r/100x140/images/anime/5/79595.jpg?s=ffd3e94353eb3b6948adfc6598f18e66 2x" />
+    </a>
+
+    <div class="detail"><div id="area3613">
+  <div id="info3613" rel="a3613" class="hoverinfo"></div>
+</div>
+<div class="di-ib clearfix"><a class="hoverinfo_trigger fl-l fs14 fw-b" href="https://myanimelist.net/anime/3613/Toshokan_Sensou" id="#area3613" rel="#info3613">Toshokan Sensou</a><a href="https://myanimelist.net/anime/3613/Toshokan_Sensou/video" class="icon-watch ml8" title="Watch Episode Video">Watch Episode Video</a></div><br><div class="information di-ib mt4">
+        TV (12 eps)<br>
+        Apr 2008 - Jun 2008<br>
+        49,159 members
+      </div></div>
+  </td>
+
+    <td class="score ac fs14"><div class="js-top-ranking-score-col di-ib al"><i class="icon-score-star mr4 on"></i><span class="text on">7.55</span></div>
+  </td>
+
+    <td class="your-score ac fs14">
+    <div class="js-top-ranking-your-score-col di-ib al">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=""><i class="icon-score-star mr4 "></i><span class="text ">N/A</span></a>
+</div>
+  </td>
+
+    <td class="status ac">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=" btn-addEdit-large btn-anime-watch-status js-anime-watch-status notinmylist"><i class="fa fa-plus-square-o mr4"></i>Add to list</a>
+</td>
+</tr>
+
+<tr class="ranking-list">
+    <td class="rank ac" valign="top">
+    <span class="lightLink top-anime-rank-text rank4">1529</span>
+  </td>
+    <td class="title al va-t word-break">
+    <a class="hoverinfo_trigger fl-l ml12 mr8" href="https://myanimelist.net/anime/1459/Uchuu_no_Kishi_Tekkaman_Blade" id="#area1459" rel="#info1459">
+      <img width="50" height="70" alt="Anime: Uchuu no Kishi Tekkaman Blade" class="lazyload" border="0" data-src="https://myanimelist.cdn-dena.com/r/50x70/images/anime/2/54793.jpg?s=5cf21a62364147802fc78b5bcb615221" data-srcset="https://myanimelist.cdn-dena.com/r/50x70/images/anime/2/54793.jpg?s=5cf21a62364147802fc78b5bcb615221 1x, https://myanimelist.cdn-dena.com/r/100x140/images/anime/2/54793.jpg?s=92b5d36c969093d54134439fa7726a2d 2x" />
+    </a>
+
+    <div class="detail"><div id="area1459">
+  <div id="info1459" rel="a1459" class="hoverinfo"></div>
+</div>
+<div class="di-ib clearfix"><a class="hoverinfo_trigger fl-l fs14 fw-b" href="https://myanimelist.net/anime/1459/Uchuu_no_Kishi_Tekkaman_Blade" id="#area1459" rel="#info1459">Uchuu no Kishi Tekkaman Blade</a></div><br><div class="information di-ib mt4">
+        TV (49 eps)<br>
+        Feb 1992 - Feb 1993<br>
+        10,676 members
+      </div></div>
+  </td>
+
+    <td class="score ac fs14"><div class="js-top-ranking-score-col di-ib al"><i class="icon-score-star mr4 on"></i><span class="text on">7.55</span></div>
+  </td>
+
+    <td class="your-score ac fs14">
+    <div class="js-top-ranking-your-score-col di-ib al">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=""><i class="icon-score-star mr4 "></i><span class="text ">N/A</span></a>
+</div>
+  </td>
+
+    <td class="status ac">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=" btn-addEdit-large btn-anime-watch-status js-anime-watch-status notinmylist"><i class="fa fa-plus-square-o mr4"></i>Add to list</a>
+</td>
+</tr>
+
+<tr class="ranking-list">
+    <td class="rank ac" valign="top">
+    <span class="lightLink top-anime-rank-text rank4">1530</span>
+  </td>
+    <td class="title al va-t word-break">
+    <a class="hoverinfo_trigger fl-l ml12 mr8" href="https://myanimelist.net/anime/21435/Yama_no_Susume__Second_Season" id="#area21435" rel="#info21435">
+      <img width="50" height="70" alt="Anime: Yama no Susume: Second Season" class="lazyload" border="0" data-src="https://myanimelist.cdn-dena.com/r/50x70/images/anime/10/56595.jpg?s=b98d2f54b9ce88390cbda41e02a306ea" data-srcset="https://myanimelist.cdn-dena.com/r/50x70/images/anime/10/56595.jpg?s=b98d2f54b9ce88390cbda41e02a306ea 1x, https://myanimelist.cdn-dena.com/r/100x140/images/anime/10/56595.jpg?s=13210a9a350380c77827053f9002a73a 2x" />
+    </a>
+
+    <div class="detail"><div id="area21435">
+  <div id="info21435" rel="a21435" class="hoverinfo"></div>
+</div>
+<div class="di-ib clearfix"><a class="hoverinfo_trigger fl-l fs14 fw-b" href="https://myanimelist.net/anime/21435/Yama_no_Susume__Second_Season" id="#area21435" rel="#info21435">Yama no Susume: Second Season</a><a href="https://myanimelist.net/anime/21435/Yama_no_Susume__Second_Season/video" class="icon-watch ml8" title="Watch Episode Video">Watch Episode Video</a></div><br><div class="information di-ib mt4">
+        TV (24 eps)<br>
+        Jul 2014 - Dec 2014<br>
+        18,587 members
+      </div></div>
+  </td>
+
+    <td class="score ac fs14"><div class="js-top-ranking-score-col di-ib al"><i class="icon-score-star mr4 on"></i><span class="text on">7.55</span></div>
+  </td>
+
+    <td class="your-score ac fs14">
+    <div class="js-top-ranking-your-score-col di-ib al">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=""><i class="icon-score-star mr4 "></i><span class="text ">N/A</span></a>
+</div>
+  </td>
+
+    <td class="status ac">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=" btn-addEdit-large btn-anime-watch-status js-anime-watch-status notinmylist"><i class="fa fa-plus-square-o mr4"></i>Add to list</a>
+</td>
+</tr>
+
+<tr class="ranking-list">
+    <td class="rank ac" valign="top">
+    <span class="lightLink top-anime-rank-text rank4">1531</span>
+  </td>
+    <td class="title al va-t word-break">
+    <a class="hoverinfo_trigger fl-l ml12 mr8" href="https://myanimelist.net/anime/3712/Zero_no_Tsukaima__Princesses_no_Rondo" id="#area3712" rel="#info3712">
+      <img width="50" height="70" alt="Anime: Zero no Tsukaima: Princesses no Rondo" class="lazyload" border="0" data-src="https://myanimelist.cdn-dena.com/r/50x70/images/anime/6/10256.jpg?s=837f47af0eefd6d8b397da5e4e6caa35" data-srcset="https://myanimelist.cdn-dena.com/r/50x70/images/anime/6/10256.jpg?s=837f47af0eefd6d8b397da5e4e6caa35 1x, https://myanimelist.cdn-dena.com/r/100x140/images/anime/6/10256.jpg?s=33fc1b25f6a124ece8ba23ddf6aaaa3c 2x" />
+    </a>
+
+    <div class="detail"><div id="area3712">
+  <div id="info3712" rel="a3712" class="hoverinfo"></div>
+</div>
+<div class="di-ib clearfix"><a class="hoverinfo_trigger fl-l fs14 fw-b" href="https://myanimelist.net/anime/3712/Zero_no_Tsukaima__Princesses_no_Rondo" id="#area3712" rel="#info3712">Zero no Tsukaima: Princesses no Rondo</a><a href="https://myanimelist.net/anime/3712/Zero_no_Tsukaima__Princesses_no_Rondo/video" class="icon-watch ml8" title="Watch Episode Video">Watch Episode Video</a></div><br><div class="information di-ib mt4">
+        TV (12 eps)<br>
+        Jul 2008 - Sep 2008<br>
+        284,401 members
+      </div></div>
+  </td>
+
+    <td class="score ac fs14"><div class="js-top-ranking-score-col di-ib al"><i class="icon-score-star mr4 on"></i><span class="text on">7.55</span></div>
+  </td>
+
+    <td class="your-score ac fs14">
+    <div class="js-top-ranking-your-score-col di-ib al">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=""><i class="icon-score-star mr4 "></i><span class="text ">N/A</span></a>
+</div>
+  </td>
+
+    <td class="status ac">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=" btn-addEdit-large btn-anime-watch-status js-anime-watch-status notinmylist"><i class="fa fa-plus-square-o mr4"></i>Add to list</a>
+</td>
+</tr>
+
+<tr class="ranking-list">
+    <td class="rank ac" valign="top">
+    <span class="lightLink top-anime-rank-text rank4">1532</span>
+  </td>
+    <td class="title al va-t word-break">
+    <a class="hoverinfo_trigger fl-l ml12 mr8" href="https://myanimelist.net/anime/102/Aishiteruze_Baby★★" id="#area102" rel="#info102">
+      <img width="50" height="70" alt="Anime: Aishiteruze Baby★★" class="lazyload" border="0" data-src="https://myanimelist.cdn-dena.com/r/50x70/images/anime/2/69665.jpg?s=da6177e6f3b76c2a585f892cd0bddca8" data-srcset="https://myanimelist.cdn-dena.com/r/50x70/images/anime/2/69665.jpg?s=da6177e6f3b76c2a585f892cd0bddca8 1x, https://myanimelist.cdn-dena.com/r/100x140/images/anime/2/69665.jpg?s=08ab67ae270f587efcf76bbf580a03d8 2x" />
+    </a>
+
+    <div class="detail"><div id="area102">
+  <div id="info102" rel="a102" class="hoverinfo"></div>
+</div>
+<div class="di-ib clearfix"><a class="hoverinfo_trigger fl-l fs14 fw-b" href="https://myanimelist.net/anime/102/Aishiteruze_Baby★★" id="#area102" rel="#info102">Aishiteruze Baby★★</a></div><br><div class="information di-ib mt4">
+        TV (26 eps)<br>
+        Apr 2004 - Oct 2004<br>
+        76,087 members
+      </div></div>
+  </td>
+
+    <td class="score ac fs14"><div class="js-top-ranking-score-col di-ib al"><i class="icon-score-star mr4 on"></i><span class="text on">7.54</span></div>
+  </td>
+
+    <td class="your-score ac fs14">
+    <div class="js-top-ranking-your-score-col di-ib al">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=""><i class="icon-score-star mr4 "></i><span class="text ">N/A</span></a>
+</div>
+  </td>
+
+    <td class="status ac">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=" btn-addEdit-large btn-anime-watch-status js-anime-watch-status notinmylist"><i class="fa fa-plus-square-o mr4"></i>Add to list</a>
+</td>
+</tr>
+
+<tr class="ranking-list">
+    <td class="rank ac" valign="top">
+    <span class="lightLink top-anime-rank-text rank4">1533</span>
+  </td>
+    <td class="title al va-t word-break">
+    <a class="hoverinfo_trigger fl-l ml12 mr8" href="https://myanimelist.net/anime/586/Ayakashi__Japanese_Classic_Horror" id="#area586" rel="#info586">
+      <img width="50" height="70" alt="Anime: Ayakashi: Japanese Classic Horror" class="lazyload" border="0" data-src="https://myanimelist.cdn-dena.com/r/50x70/images/anime/2/11746.jpg?s=f5aa44efe7c8a35336b1c9f53fed1207" data-srcset="https://myanimelist.cdn-dena.com/r/50x70/images/anime/2/11746.jpg?s=f5aa44efe7c8a35336b1c9f53fed1207 1x, https://myanimelist.cdn-dena.com/r/100x140/images/anime/2/11746.jpg?s=5bc90196ca4d2f5c5d609d2fa14b868d 2x" />
+    </a>
+
+    <div class="detail"><div id="area586">
+  <div id="info586" rel="a586" class="hoverinfo"></div>
+</div>
+<div class="di-ib clearfix"><a class="hoverinfo_trigger fl-l fs14 fw-b" href="https://myanimelist.net/anime/586/Ayakashi__Japanese_Classic_Horror" id="#area586" rel="#info586">Ayakashi: Japanese Classic Horror</a></div><br><div class="information di-ib mt4">
+        TV (11 eps)<br>
+        Jan 2006 - Mar 2006<br>
+        44,390 members
+      </div></div>
+  </td>
+
+    <td class="score ac fs14"><div class="js-top-ranking-score-col di-ib al"><i class="icon-score-star mr4 on"></i><span class="text on">7.54</span></div>
+  </td>
+
+    <td class="your-score ac fs14">
+    <div class="js-top-ranking-your-score-col di-ib al">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=""><i class="icon-score-star mr4 "></i><span class="text ">N/A</span></a>
+</div>
+  </td>
+
+    <td class="status ac">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=" btn-addEdit-large btn-anime-watch-status js-anime-watch-status notinmylist"><i class="fa fa-plus-square-o mr4"></i>Add to list</a>
+</td>
+</tr>
+
+<tr class="ranking-list">
+    <td class="rank ac" valign="top">
+    <span class="lightLink top-anime-rank-text rank4">1534</span>
+  </td>
+    <td class="title al va-t word-break">
+    <a class="hoverinfo_trigger fl-l ml12 mr8" href="https://myanimelist.net/anime/12187/Carnival_Phantasm_EX_Season" id="#area12187" rel="#info12187">
+      <img width="50" height="70" alt="Anime: Carnival Phantasm EX Season" class="lazyload" border="0" data-src="https://myanimelist.cdn-dena.com/r/50x70/images/anime/4/64281.jpg?s=ce32bee7940c6f737c6f2367a7343797" data-srcset="https://myanimelist.cdn-dena.com/r/50x70/images/anime/4/64281.jpg?s=ce32bee7940c6f737c6f2367a7343797 1x, https://myanimelist.cdn-dena.com/r/100x140/images/anime/4/64281.jpg?s=69e92169f217d069adca7b85cd4f2fa7 2x" />
+    </a>
+
+    <div class="detail"><div id="area12187">
+  <div id="info12187" rel="a12187" class="hoverinfo"></div>
+</div>
+<div class="di-ib clearfix"><a class="hoverinfo_trigger fl-l fs14 fw-b" href="https://myanimelist.net/anime/12187/Carnival_Phantasm_EX_Season" id="#area12187" rel="#info12187">Carnival Phantasm EX Season</a></div><br><div class="information di-ib mt4">
+        OVA (1 eps)<br>
+        Nov 2011 - Nov 2011<br>
+        30,521 members
+      </div></div>
+  </td>
+
+    <td class="score ac fs14"><div class="js-top-ranking-score-col di-ib al"><i class="icon-score-star mr4 on"></i><span class="text on">7.54</span></div>
+  </td>
+
+    <td class="your-score ac fs14">
+    <div class="js-top-ranking-your-score-col di-ib al">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=""><i class="icon-score-star mr4 "></i><span class="text ">N/A</span></a>
+</div>
+  </td>
+
+    <td class="status ac">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=" btn-addEdit-large btn-anime-watch-status js-anime-watch-status notinmylist"><i class="fa fa-plus-square-o mr4"></i>Add to list</a>
+</td>
+</tr>
+
+<tr class="ranking-list">
+    <td class="rank ac" valign="top">
+    <span class="lightLink top-anime-rank-text rank4">1535</span>
+  </td>
+    <td class="title al va-t word-break">
+    <a class="hoverinfo_trigger fl-l ml12 mr8" href="https://myanimelist.net/anime/8888/Code_Geass__Boukoku_no_Akito_1_-_Yokuryuu_wa_Maiorita" id="#area8888" rel="#info8888">
+      <img width="50" height="70" alt="Anime: Code Geass: Boukoku no Akito 1 - Yokuryuu wa Maiorita" class="lazyload" border="0" data-src="https://myanimelist.cdn-dena.com/r/50x70/images/anime/10/41401.jpg?s=b8c1f499cc057c6555e612984689abad" data-srcset="https://myanimelist.cdn-dena.com/r/50x70/images/anime/10/41401.jpg?s=b8c1f499cc057c6555e612984689abad 1x, https://myanimelist.cdn-dena.com/r/100x140/images/anime/10/41401.jpg?s=43c9920a62821a8e40395ac9f5c25c44 2x" />
+    </a>
+
+    <div class="detail"><div id="area8888">
+  <div id="info8888" rel="a8888" class="hoverinfo"></div>
+</div>
+<div class="di-ib clearfix"><a class="hoverinfo_trigger fl-l fs14 fw-b" href="https://myanimelist.net/anime/8888/Code_Geass__Boukoku_no_Akito_1_-_Yokuryuu_wa_Maiorita" id="#area8888" rel="#info8888">Code Geass: Boukoku no Akito 1 - Yokuryuu wa Maiorita</a><a href="https://myanimelist.net/anime/8888/Code_Geass__Boukoku_no_Akito_1_-_Yokuryuu_wa_Maiorita/video" class="icon-watch ml8" title="Watch Episode Video">Watch Episode Video</a></div><br><div class="information di-ib mt4">
+        Movie (1 eps)<br>
+        Jul 2012 - Jul 2012<br>
+        119,210 members
+      </div></div>
+  </td>
+
+    <td class="score ac fs14"><div class="js-top-ranking-score-col di-ib al"><i class="icon-score-star mr4 on"></i><span class="text on">7.54</span></div>
+  </td>
+
+    <td class="your-score ac fs14">
+    <div class="js-top-ranking-your-score-col di-ib al">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=""><i class="icon-score-star mr4 "></i><span class="text ">N/A</span></a>
+</div>
+  </td>
+
+    <td class="status ac">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=" btn-addEdit-large btn-anime-watch-status js-anime-watch-status notinmylist"><i class="fa fa-plus-square-o mr4"></i>Add to list</a>
+</td>
+</tr>
+
+<tr class="ranking-list">
+    <td class="rank ac" valign="top">
+    <span class="lightLink top-anime-rank-text rank4">1536</span>
+  </td>
+    <td class="title al va-t word-break">
+    <a class="hoverinfo_trigger fl-l ml12 mr8" href="https://myanimelist.net/anime/6231/Detective_Conan_Magic_File_3__Shinichi_and_Ran_-_Memories_of_Mahjong_Tiles_and_Tanabata" id="#area6231" rel="#info6231">
+      <img width="50" height="70" alt="Anime: Detective Conan Magic File 3: Shinichi and Ran - Memories of Mahjong Tiles and Tanabata" class="lazyload" border="0" data-src="https://myanimelist.cdn-dena.com/r/50x70/images/anime/9/37977.jpg?s=89b8cc5ee0352041ba8d735e413f3a46" data-srcset="https://myanimelist.cdn-dena.com/r/50x70/images/anime/9/37977.jpg?s=89b8cc5ee0352041ba8d735e413f3a46 1x, https://myanimelist.cdn-dena.com/r/100x140/images/anime/9/37977.jpg?s=2258e16e8270fe443f68694471d3b98c 2x" />
+    </a>
+
+    <div class="detail"><div id="area6231">
+  <div id="info6231" rel="a6231" class="hoverinfo"></div>
+</div>
+<div class="di-ib clearfix"><a class="hoverinfo_trigger fl-l fs14 fw-b" href="https://myanimelist.net/anime/6231/Detective_Conan_Magic_File_3__Shinichi_and_Ran_-_Memories_of_Mahjong_Tiles_and_Tanabata" id="#area6231" rel="#info6231">Detective Conan Magic File 3: Shinichi and Ran - Memories of Mahjong Tiles and Tanabata</a></div><br><div class="information di-ib mt4">
+        OVA (1 eps)<br>
+        Apr 2009 - Apr 2009<br>
+        8,722 members
+      </div></div>
+  </td>
+
+    <td class="score ac fs14"><div class="js-top-ranking-score-col di-ib al"><i class="icon-score-star mr4 on"></i><span class="text on">7.54</span></div>
+  </td>
+
+    <td class="your-score ac fs14">
+    <div class="js-top-ranking-your-score-col di-ib al">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=""><i class="icon-score-star mr4 "></i><span class="text ">N/A</span></a>
+</div>
+  </td>
+
+    <td class="status ac">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=" btn-addEdit-large btn-anime-watch-status js-anime-watch-status notinmylist"><i class="fa fa-plus-square-o mr4"></i>Add to list</a>
+</td>
+</tr>
+
+<tr class="ranking-list">
+    <td class="rank ac" valign="top">
+    <span class="lightLink top-anime-rank-text rank4">1537</span>
+  </td>
+    <td class="title al va-t word-break">
+    <a class="hoverinfo_trigger fl-l ml12 mr8" href="https://myanimelist.net/anime/2392/Doraemon_Movie_26__Nobita_no_Kyouryuu_2006" id="#area2392" rel="#info2392">
+      <img width="50" height="70" alt="Anime: Doraemon Movie 26: Nobita no Kyouryuu 2006" class="lazyload" border="0" data-src="https://myanimelist.cdn-dena.com/r/50x70/images/anime/9/72431.jpg?s=1adc018a1460da2a150fee68df879534" data-srcset="https://myanimelist.cdn-dena.com/r/50x70/images/anime/9/72431.jpg?s=1adc018a1460da2a150fee68df879534 1x, https://myanimelist.cdn-dena.com/r/100x140/images/anime/9/72431.jpg?s=a772998c13a1e921b324b0d63938f2e3 2x" />
+    </a>
+
+    <div class="detail"><div id="area2392">
+  <div id="info2392" rel="a2392" class="hoverinfo"></div>
+</div>
+<div class="di-ib clearfix"><a class="hoverinfo_trigger fl-l fs14 fw-b" href="https://myanimelist.net/anime/2392/Doraemon_Movie_26__Nobita_no_Kyouryuu_2006" id="#area2392" rel="#info2392">Doraemon Movie 26: Nobita no Kyouryuu 2006</a><a href="https://myanimelist.net/anime/2392/Doraemon_Movie_26__Nobita_no_Kyouryuu_2006/video" class="icon-watch-pv ml8" title="Watch Promotional Video">Watch Promotional Video</a></div><br><div class="information di-ib mt4">
+        Movie (1 eps)<br>
+        Mar 2006 - Mar 2006<br>
+        3,723 members
+      </div></div>
+  </td>
+
+    <td class="score ac fs14"><div class="js-top-ranking-score-col di-ib al"><i class="icon-score-star mr4 on"></i><span class="text on">7.54</span></div>
+  </td>
+
+    <td class="your-score ac fs14">
+    <div class="js-top-ranking-your-score-col di-ib al">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=""><i class="icon-score-star mr4 "></i><span class="text ">N/A</span></a>
+</div>
+  </td>
+
+    <td class="status ac">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=" btn-addEdit-large btn-anime-watch-status js-anime-watch-status notinmylist"><i class="fa fa-plus-square-o mr4"></i>Add to list</a>
+</td>
+</tr>
+
+<tr class="ranking-list">
+    <td class="rank ac" valign="top">
+    <span class="lightLink top-anime-rank-text rank4">1538</span>
+  </td>
+    <td class="title al va-t word-break">
+    <a class="hoverinfo_trigger fl-l ml12 mr8" href="https://myanimelist.net/anime/901/Dragon_Ball_Z_Movie_08__Moetsukiro_Nessen_Ressen_Chougekisen" id="#area901" rel="#info901">
+      <img width="50" height="70" alt="Anime: Dragon Ball Z Movie 08: Moetsukiro!! Nessen, Ressen, Chougekisen" class="lazyload" border="0" data-src="https://myanimelist.cdn-dena.com/r/50x70/images/anime/1180/93671.jpg?s=105c68954bcf5859abe858826a4e754f" data-srcset="https://myanimelist.cdn-dena.com/r/50x70/images/anime/1180/93671.jpg?s=105c68954bcf5859abe858826a4e754f 1x, https://myanimelist.cdn-dena.com/r/100x140/images/anime/1180/93671.jpg?s=55ee825df1246e6946d0d187109040ff 2x" />
+    </a>
+
+    <div class="detail"><div id="area901">
+  <div id="info901" rel="a901" class="hoverinfo"></div>
+</div>
+<div class="di-ib clearfix"><a class="hoverinfo_trigger fl-l fs14 fw-b" href="https://myanimelist.net/anime/901/Dragon_Ball_Z_Movie_08__Moetsukiro_Nessen_Ressen_Chougekisen" id="#area901" rel="#info901">Dragon Ball Z Movie 08: Moetsukiro!! Nessen, Ressen, Chougekisen</a><a href="https://myanimelist.net/anime/901/Dragon_Ball_Z_Movie_08__Moetsukiro_Nessen_Ressen_Chougekisen/video" class="icon-watch-pv ml8" title="Watch Promotional Video">Watch Promotional Video</a></div><br><div class="information di-ib mt4">
+        Movie (1 eps)<br>
+        Mar 1993 - Mar 1993<br>
+        91,599 members
+      </div></div>
+  </td>
+
+    <td class="score ac fs14"><div class="js-top-ranking-score-col di-ib al"><i class="icon-score-star mr4 on"></i><span class="text on">7.54</span></div>
+  </td>
+
+    <td class="your-score ac fs14">
+    <div class="js-top-ranking-your-score-col di-ib al">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=""><i class="icon-score-star mr4 "></i><span class="text ">N/A</span></a>
+</div>
+  </td>
+
+    <td class="status ac">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=" btn-addEdit-large btn-anime-watch-status js-anime-watch-status notinmylist"><i class="fa fa-plus-square-o mr4"></i>Add to list</a>
+</td>
+</tr>
+
+<tr class="ranking-list">
+    <td class="rank ac" valign="top">
+    <span class="lightLink top-anime-rank-text rank4">1539</span>
+  </td>
+    <td class="title al va-t word-break">
+    <a class="hoverinfo_trigger fl-l ml12 mr8" href="https://myanimelist.net/anime/1747/Freedom" id="#area1747" rel="#info1747">
+      <img width="50" height="70" alt="Anime: Freedom" class="lazyload" border="0" data-src="https://myanimelist.cdn-dena.com/r/50x70/images/anime/4/50511.jpg?s=e9f78b6d4a0c71934fe83d9d75bbdab5" data-srcset="https://myanimelist.cdn-dena.com/r/50x70/images/anime/4/50511.jpg?s=e9f78b6d4a0c71934fe83d9d75bbdab5 1x, https://myanimelist.cdn-dena.com/r/100x140/images/anime/4/50511.jpg?s=b97803f9e76447e9bd787dc94d6a7ad6 2x" />
+    </a>
+
+    <div class="detail"><div id="area1747">
+  <div id="info1747" rel="a1747" class="hoverinfo"></div>
+</div>
+<div class="di-ib clearfix"><a class="hoverinfo_trigger fl-l fs14 fw-b" href="https://myanimelist.net/anime/1747/Freedom" id="#area1747" rel="#info1747">Freedom</a><a href="https://myanimelist.net/anime/1747/Freedom/video" class="icon-watch-pv ml8" title="Watch Promotional Video">Watch Promotional Video</a></div><br><div class="information di-ib mt4">
+        OVA (7 eps)<br>
+        Nov 2006 - May 2008<br>
+        17,012 members
+      </div></div>
+  </td>
+
+    <td class="score ac fs14"><div class="js-top-ranking-score-col di-ib al"><i class="icon-score-star mr4 on"></i><span class="text on">7.54</span></div>
+  </td>
+
+    <td class="your-score ac fs14">
+    <div class="js-top-ranking-your-score-col di-ib al">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=""><i class="icon-score-star mr4 "></i><span class="text ">N/A</span></a>
+</div>
+  </td>
+
+    <td class="status ac">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=" btn-addEdit-large btn-anime-watch-status js-anime-watch-status notinmylist"><i class="fa fa-plus-square-o mr4"></i>Add to list</a>
+</td>
+</tr>
+
+<tr class="ranking-list">
+    <td class="rank ac" valign="top">
+    <span class="lightLink top-anime-rank-text rank4">1540</span>
+  </td>
+    <td class="title al va-t word-break">
+    <a class="hoverinfo_trigger fl-l ml12 mr8" href="https://myanimelist.net/anime/19195/Ghost_in_the_Shell__Arise_-_Border_4_Ghost_Stands_Alone" id="#area19195" rel="#info19195">
+      <img width="50" height="70" alt="Anime: Ghost in the Shell: Arise - Border:4 Ghost Stands Alone" class="lazyload" border="0" data-src="https://myanimelist.cdn-dena.com/r/50x70/images/anime/11/63993.jpg?s=8f9566eb9936285ac9f5beb45742cdac" data-srcset="https://myanimelist.cdn-dena.com/r/50x70/images/anime/11/63993.jpg?s=8f9566eb9936285ac9f5beb45742cdac 1x, https://myanimelist.cdn-dena.com/r/100x140/images/anime/11/63993.jpg?s=eae4c41c8b0e9ea7459e408ec95a2938 2x" />
+    </a>
+
+    <div class="detail"><div id="area19195">
+  <div id="info19195" rel="a19195" class="hoverinfo"></div>
+</div>
+<div class="di-ib clearfix"><a class="hoverinfo_trigger fl-l fs14 fw-b" href="https://myanimelist.net/anime/19195/Ghost_in_the_Shell__Arise_-_Border_4_Ghost_Stands_Alone" id="#area19195" rel="#info19195">Ghost in the Shell: Arise - Border:4 Ghost Stands Alone</a><a href="https://myanimelist.net/anime/19195/Ghost_in_the_Shell__Arise_-_Border_4_Ghost_Stands_Alone/video" class="icon-watch ml8" title="Watch Episode Video">Watch Episode Video</a></div><br><div class="information di-ib mt4">
+        Movie (1 eps)<br>
+        Sep 2014 - Sep 2014<br>
+        27,259 members
+      </div></div>
+  </td>
+
+    <td class="score ac fs14"><div class="js-top-ranking-score-col di-ib al"><i class="icon-score-star mr4 on"></i><span class="text on">7.54</span></div>
+  </td>
+
+    <td class="your-score ac fs14">
+    <div class="js-top-ranking-your-score-col di-ib al">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=""><i class="icon-score-star mr4 "></i><span class="text ">N/A</span></a>
+</div>
+  </td>
+
+    <td class="status ac">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=" btn-addEdit-large btn-anime-watch-status js-anime-watch-status notinmylist"><i class="fa fa-plus-square-o mr4"></i>Add to list</a>
+</td>
+</tr>
+
+<tr class="ranking-list">
+    <td class="rank ac" valign="top">
+    <span class="lightLink top-anime-rank-text rank4">1541</span>
+  </td>
+    <td class="title al va-t word-break">
+    <a class="hoverinfo_trigger fl-l ml12 mr8" href="https://myanimelist.net/anime/15613/Hakkenden__Touhou_Hakken_Ibun" id="#area15613" rel="#info15613">
+      <img width="50" height="70" alt="Anime: Hakkenden: Touhou Hakken Ibun" class="lazyload" border="0" data-src="https://myanimelist.cdn-dena.com/r/50x70/images/anime/13/43007.jpg?s=5a9ed04da3cb6bf93bf90ff2f01f0953" data-srcset="https://myanimelist.cdn-dena.com/r/50x70/images/anime/13/43007.jpg?s=5a9ed04da3cb6bf93bf90ff2f01f0953 1x, https://myanimelist.cdn-dena.com/r/100x140/images/anime/13/43007.jpg?s=6b8275ef75baa27ab8eb3a85077504ba 2x" />
+    </a>
+
+    <div class="detail"><div id="area15613">
+  <div id="info15613" rel="a15613" class="hoverinfo"></div>
+</div>
+<div class="di-ib clearfix"><a class="hoverinfo_trigger fl-l fs14 fw-b" href="https://myanimelist.net/anime/15613/Hakkenden__Touhou_Hakken_Ibun" id="#area15613" rel="#info15613">Hakkenden: Touhou Hakken Ibun</a><a href="https://myanimelist.net/anime/15613/Hakkenden__Touhou_Hakken_Ibun/video" class="icon-watch ml8" title="Watch Episode Video">Watch Episode Video</a></div><br><div class="information di-ib mt4">
+        TV (13 eps)<br>
+        Jan 2013 - Mar 2013<br>
+        77,159 members
+      </div></div>
+  </td>
+
+    <td class="score ac fs14"><div class="js-top-ranking-score-col di-ib al"><i class="icon-score-star mr4 on"></i><span class="text on">7.54</span></div>
+  </td>
+
+    <td class="your-score ac fs14">
+    <div class="js-top-ranking-your-score-col di-ib al">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=""><i class="icon-score-star mr4 "></i><span class="text ">N/A</span></a>
+</div>
+  </td>
+
+    <td class="status ac">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=" btn-addEdit-large btn-anime-watch-status js-anime-watch-status notinmylist"><i class="fa fa-plus-square-o mr4"></i>Add to list</a>
+</td>
+</tr>
+
+<tr class="ranking-list">
+    <td class="rank ac" valign="top">
+    <span class="lightLink top-anime-rank-text rank4">1542</span>
+  </td>
+    <td class="title al va-t word-break">
+    <a class="hoverinfo_trigger fl-l ml12 mr8" href="https://myanimelist.net/anime/34281/High_School_DxD_Hero" id="#area34281" rel="#info34281">
+      <img width="50" height="70" alt="Anime: High School DxD Hero" class="lazyload" border="0" data-src="https://myanimelist.cdn-dena.com/r/50x70/images/anime/1189/93528.jpg?s=a8d4254bfdc3e8231abc1fc6e10590e1" data-srcset="https://myanimelist.cdn-dena.com/r/50x70/images/anime/1189/93528.jpg?s=a8d4254bfdc3e8231abc1fc6e10590e1 1x, https://myanimelist.cdn-dena.com/r/100x140/images/anime/1189/93528.jpg?s=b26a34343b19f692b5b9fb3a32c77713 2x" />
+    </a>
+
+    <div class="detail"><div id="area34281">
+  <div id="info34281" rel="a34281" class="hoverinfo"></div>
+</div>
+<div class="di-ib clearfix"><a class="hoverinfo_trigger fl-l fs14 fw-b" href="https://myanimelist.net/anime/34281/High_School_DxD_Hero" id="#area34281" rel="#info34281">High School DxD Hero</a><a href="https://myanimelist.net/anime/34281/High_School_DxD_Hero/video" class="icon-watch-pv ml8" title="Watch Promotional Video">Watch Promotional Video</a></div><br><div class="information di-ib mt4">
+        TV (12 eps)<br>
+        Apr 2018 - Jul 2018<br>
+        140,787 members
+      </div></div>
+  </td>
+
+    <td class="score ac fs14"><div class="js-top-ranking-score-col di-ib al"><i class="icon-score-star mr4 on"></i><span class="text on">7.54</span></div>
+  </td>
+
+    <td class="your-score ac fs14">
+    <div class="js-top-ranking-your-score-col di-ib al">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=""><i class="icon-score-star mr4 "></i><span class="text ">N/A</span></a>
+</div>
+  </td>
+
+    <td class="status ac">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=" btn-addEdit-large btn-anime-watch-status js-anime-watch-status notinmylist"><i class="fa fa-plus-square-o mr4"></i>Add to list</a>
+</td>
+</tr>
+
+<tr class="ranking-list">
+    <td class="rank ac" valign="top">
+    <span class="lightLink top-anime-rank-text rank4">1543</span>
+  </td>
+    <td class="title al va-t word-break">
+    <a class="hoverinfo_trigger fl-l ml12 mr8" href="https://myanimelist.net/anime/10765/Hikaru_no_Go__Tokubetsu-hen_-_Sabaki_no_Ichikyoku_Inishie_no_Hana_yo_Sake" id="#area10765" rel="#info10765">
+      <img width="50" height="70" alt="Anime: Hikaru no Go: Tokubetsu-hen - Sabaki no Ichikyoku! Inishie no Hana yo Sake!!" class="lazyload" border="0" data-src="https://myanimelist.cdn-dena.com/r/50x70/images/anime/9/29669.jpg?s=e46fa21f049ab069f1de5c2cbf416d97" data-srcset="https://myanimelist.cdn-dena.com/r/50x70/images/anime/9/29669.jpg?s=e46fa21f049ab069f1de5c2cbf416d97 1x, https://myanimelist.cdn-dena.com/r/100x140/images/anime/9/29669.jpg?s=b8fd9e53f5e3709186589f54925a0762 2x" />
+    </a>
+
+    <div class="detail"><div id="area10765">
+  <div id="info10765" rel="a10765" class="hoverinfo"></div>
+</div>
+<div class="di-ib clearfix"><a class="hoverinfo_trigger fl-l fs14 fw-b" href="https://myanimelist.net/anime/10765/Hikaru_no_Go__Tokubetsu-hen_-_Sabaki_no_Ichikyoku_Inishie_no_Hana_yo_Sake" id="#area10765" rel="#info10765">Hikaru no Go: Tokubetsu-hen - Sabaki no Ichikyoku! Inishie no Hana yo Sake!!</a></div><br><div class="information di-ib mt4">
+        OVA (1 eps)<br>
+        2002 - 2002<br>
+        5,226 members
+      </div></div>
+  </td>
+
+    <td class="score ac fs14"><div class="js-top-ranking-score-col di-ib al"><i class="icon-score-star mr4 on"></i><span class="text on">7.54</span></div>
+  </td>
+
+    <td class="your-score ac fs14">
+    <div class="js-top-ranking-your-score-col di-ib al">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=""><i class="icon-score-star mr4 "></i><span class="text ">N/A</span></a>
+</div>
+  </td>
+
+    <td class="status ac">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=" btn-addEdit-large btn-anime-watch-status js-anime-watch-status notinmylist"><i class="fa fa-plus-square-o mr4"></i>Add to list</a>
+</td>
+</tr>
+
+<tr class="ranking-list">
+    <td class="rank ac" valign="top">
+    <span class="lightLink top-anime-rank-text rank4">1544</span>
+  </td>
+    <td class="title al va-t word-break">
+    <a class="hoverinfo_trigger fl-l ml12 mr8" href="https://myanimelist.net/anime/2037/Hime-chan_no_Ribbon" id="#area2037" rel="#info2037">
+      <img width="50" height="70" alt="Anime: Hime-chan no Ribbon" class="lazyload" border="0" data-src="https://myanimelist.cdn-dena.com/r/50x70/images/anime/4/46021.jpg?s=5765cef1042f923e240a3fcee36a38eb" data-srcset="https://myanimelist.cdn-dena.com/r/50x70/images/anime/4/46021.jpg?s=5765cef1042f923e240a3fcee36a38eb 1x, https://myanimelist.cdn-dena.com/r/100x140/images/anime/4/46021.jpg?s=7a349ce9c21c55ffc6ccfa07b91334e6 2x" />
+    </a>
+
+    <div class="detail"><div id="area2037">
+  <div id="info2037" rel="a2037" class="hoverinfo"></div>
+</div>
+<div class="di-ib clearfix"><a class="hoverinfo_trigger fl-l fs14 fw-b" href="https://myanimelist.net/anime/2037/Hime-chan_no_Ribbon" id="#area2037" rel="#info2037">Hime-chan no Ribbon</a><a href="https://myanimelist.net/anime/2037/Hime-chan_no_Ribbon/video" class="icon-watch-pv ml8" title="Watch Promotional Video">Watch Promotional Video</a></div><br><div class="information di-ib mt4">
+        TV (61 eps)<br>
+        Oct 1992 - Dec 1993<br>
+        4,866 members
+      </div></div>
+  </td>
+
+    <td class="score ac fs14"><div class="js-top-ranking-score-col di-ib al"><i class="icon-score-star mr4 on"></i><span class="text on">7.54</span></div>
+  </td>
+
+    <td class="your-score ac fs14">
+    <div class="js-top-ranking-your-score-col di-ib al">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=""><i class="icon-score-star mr4 "></i><span class="text ">N/A</span></a>
+</div>
+  </td>
+
+    <td class="status ac">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=" btn-addEdit-large btn-anime-watch-status js-anime-watch-status notinmylist"><i class="fa fa-plus-square-o mr4"></i>Add to list</a>
+</td>
+</tr>
+
+<tr class="ranking-list">
+    <td class="rank ac" valign="top">
+    <span class="lightLink top-anime-rank-text rank4">1545</span>
+  </td>
+    <td class="title al va-t word-break">
+    <a class="hoverinfo_trigger fl-l ml12 mr8" href="https://myanimelist.net/anime/5291/Hokuto_no_Ken_Zero__Kenshirou_Den" id="#area5291" rel="#info5291">
+      <img width="50" height="70" alt="Anime: Hokuto no Ken Zero: Kenshirou Den" class="lazyload" border="0" data-src="https://myanimelist.cdn-dena.com/r/50x70/images/anime/5/76902.jpg?s=e0274addd5770ab15690ee6321af3694" data-srcset="https://myanimelist.cdn-dena.com/r/50x70/images/anime/5/76902.jpg?s=e0274addd5770ab15690ee6321af3694 1x, https://myanimelist.cdn-dena.com/r/100x140/images/anime/5/76902.jpg?s=b6a8fd21b23341105444d9b36d3e1d5b 2x" />
+    </a>
+
+    <div class="detail"><div id="area5291">
+  <div id="info5291" rel="a5291" class="hoverinfo"></div>
+</div>
+<div class="di-ib clearfix"><a class="hoverinfo_trigger fl-l fs14 fw-b" href="https://myanimelist.net/anime/5291/Hokuto_no_Ken_Zero__Kenshirou_Den" id="#area5291" rel="#info5291">Hokuto no Ken Zero: Kenshirou Den</a></div><br><div class="information di-ib mt4">
+        Movie (1 eps)<br>
+        Oct 2008 - Oct 2008<br>
+        6,190 members
+      </div></div>
+  </td>
+
+    <td class="score ac fs14"><div class="js-top-ranking-score-col di-ib al"><i class="icon-score-star mr4 on"></i><span class="text on">7.54</span></div>
+  </td>
+
+    <td class="your-score ac fs14">
+    <div class="js-top-ranking-your-score-col di-ib al">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=""><i class="icon-score-star mr4 "></i><span class="text ">N/A</span></a>
+</div>
+  </td>
+
+    <td class="status ac">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=" btn-addEdit-large btn-anime-watch-status js-anime-watch-status notinmylist"><i class="fa fa-plus-square-o mr4"></i>Add to list</a>
+</td>
+</tr>
+
+<tr class="ranking-list">
+    <td class="rank ac" valign="top">
+    <span class="lightLink top-anime-rank-text rank4">1546</span>
+  </td>
+    <td class="title al va-t word-break">
+    <a class="hoverinfo_trigger fl-l ml12 mr8" href="https://myanimelist.net/anime/34933/Kakegurui" id="#area34933" rel="#info34933">
+      <img width="50" height="70" alt="Anime: Kakegurui" class="lazyload" border="0" data-src="https://myanimelist.cdn-dena.com/r/50x70/images/anime/3/86578.jpg?s=9bc5e03a533e5f4c1f08115686952c02" data-srcset="https://myanimelist.cdn-dena.com/r/50x70/images/anime/3/86578.jpg?s=9bc5e03a533e5f4c1f08115686952c02 1x, https://myanimelist.cdn-dena.com/r/100x140/images/anime/3/86578.jpg?s=ec3c14ccc7397ffad325297afbe1d453 2x" />
+    </a>
+
+    <div class="detail"><div id="area34933">
+  <div id="info34933" rel="a34933" class="hoverinfo"></div>
+</div>
+<div class="di-ib clearfix"><a class="hoverinfo_trigger fl-l fs14 fw-b" href="https://myanimelist.net/anime/34933/Kakegurui" id="#area34933" rel="#info34933">Kakegurui</a><a href="https://myanimelist.net/anime/34933/Kakegurui/video" class="icon-watch-pv ml8" title="Watch Promotional Video">Watch Promotional Video</a></div><br><div class="information di-ib mt4">
+        TV (12 eps)<br>
+        Jul 2017 - Sep 2017<br>
+        312,474 members
+      </div></div>
+  </td>
+
+    <td class="score ac fs14"><div class="js-top-ranking-score-col di-ib al"><i class="icon-score-star mr4 on"></i><span class="text on">7.54</span></div>
+  </td>
+
+    <td class="your-score ac fs14">
+    <div class="js-top-ranking-your-score-col di-ib al">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=""><i class="icon-score-star mr4 "></i><span class="text ">N/A</span></a>
+</div>
+  </td>
+
+    <td class="status ac">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=" btn-addEdit-large btn-anime-watch-status js-anime-watch-status notinmylist"><i class="fa fa-plus-square-o mr4"></i>Add to list</a>
+</td>
+</tr>
+
+<tr class="ranking-list">
+    <td class="rank ac" valign="top">
+    <span class="lightLink top-anime-rank-text rank4">1547</span>
+  </td>
+    <td class="title al va-t word-break">
+    <a class="hoverinfo_trigger fl-l ml12 mr8" href="https://myanimelist.net/anime/98/Mai-HiME" id="#area98" rel="#info98">
+      <img width="50" height="70" alt="Anime: Mai-HiME" class="lazyload" border="0" data-src="https://myanimelist.cdn-dena.com/r/50x70/images/anime/13/7226.jpg?s=3cfc4466372b2bbbbf22ef6a4914fae3" data-srcset="https://myanimelist.cdn-dena.com/r/50x70/images/anime/13/7226.jpg?s=3cfc4466372b2bbbbf22ef6a4914fae3 1x, https://myanimelist.cdn-dena.com/r/100x140/images/anime/13/7226.jpg?s=f0aa2cac7cba33774a9d144d7c0795c3 2x" />
+    </a>
+
+    <div class="detail"><div id="area98">
+  <div id="info98" rel="a98" class="hoverinfo"></div>
+</div>
+<div class="di-ib clearfix"><a class="hoverinfo_trigger fl-l fs14 fw-b" href="https://myanimelist.net/anime/98/Mai-HiME" id="#area98" rel="#info98">Mai-HiME</a><a href="https://myanimelist.net/anime/98/Mai-HiME/video" class="icon-watch ml8" title="Watch Episode Video">Watch Episode Video</a></div><br><div class="information di-ib mt4">
+        TV (26 eps)<br>
+        Sep 2004 - Mar 2005<br>
+        88,092 members
+      </div></div>
+  </td>
+
+    <td class="score ac fs14"><div class="js-top-ranking-score-col di-ib al"><i class="icon-score-star mr4 on"></i><span class="text on">7.54</span></div>
+  </td>
+
+    <td class="your-score ac fs14">
+    <div class="js-top-ranking-your-score-col di-ib al">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=""><i class="icon-score-star mr4 "></i><span class="text ">N/A</span></a>
+</div>
+  </td>
+
+    <td class="status ac">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=" btn-addEdit-large btn-anime-watch-status js-anime-watch-status notinmylist"><i class="fa fa-plus-square-o mr4"></i>Add to list</a>
+</td>
+</tr>
+
+<tr class="ranking-list">
+    <td class="rank ac" valign="top">
+    <span class="lightLink top-anime-rank-text rank4">1548</span>
+  </td>
+    <td class="title al va-t word-break">
+    <a class="hoverinfo_trigger fl-l ml12 mr8" href="https://myanimelist.net/anime/593/Mugen_no_Ryvius" id="#area593" rel="#info593">
+      <img width="50" height="70" alt="Anime: Mugen no Ryvius" class="lazyload" border="0" data-src="https://myanimelist.cdn-dena.com/r/50x70/images/anime/3/16734.jpg?s=3723f31b9fdd402a7c6ccbc0c1b37406" data-srcset="https://myanimelist.cdn-dena.com/r/50x70/images/anime/3/16734.jpg?s=3723f31b9fdd402a7c6ccbc0c1b37406 1x, https://myanimelist.cdn-dena.com/r/100x140/images/anime/3/16734.jpg?s=6dc22654b2c44fc3df8c7129b3eafbf9 2x" />
+    </a>
+
+    <div class="detail"><div id="area593">
+  <div id="info593" rel="a593" class="hoverinfo"></div>
+</div>
+<div class="di-ib clearfix"><a class="hoverinfo_trigger fl-l fs14 fw-b" href="https://myanimelist.net/anime/593/Mugen_no_Ryvius" id="#area593" rel="#info593">Mugen no Ryvius</a><a href="https://myanimelist.net/anime/593/Mugen_no_Ryvius/video" class="icon-watch-pv ml8" title="Watch Promotional Video">Watch Promotional Video</a></div><br><div class="information di-ib mt4">
+        TV (26 eps)<br>
+        Oct 1999 - Mar 2000<br>
+        29,595 members
+      </div></div>
+  </td>
+
+    <td class="score ac fs14"><div class="js-top-ranking-score-col di-ib al"><i class="icon-score-star mr4 on"></i><span class="text on">7.54</span></div>
+  </td>
+
+    <td class="your-score ac fs14">
+    <div class="js-top-ranking-your-score-col di-ib al">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=""><i class="icon-score-star mr4 "></i><span class="text ">N/A</span></a>
+</div>
+  </td>
+
+    <td class="status ac">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=" btn-addEdit-large btn-anime-watch-status js-anime-watch-status notinmylist"><i class="fa fa-plus-square-o mr4"></i>Add to list</a>
+</td>
+</tr>
+
+<tr class="ranking-list">
+    <td class="rank ac" valign="top">
+    <span class="lightLink top-anime-rank-text rank4">1549</span>
+  </td>
+    <td class="title al va-t word-break">
+    <a class="hoverinfo_trigger fl-l ml12 mr8" href="https://myanimelist.net/anime/32566/Noblesse__Pamyeol-ui_Sijak" id="#area32566" rel="#info32566">
+      <img width="50" height="70" alt="Anime: Noblesse: Pamyeol-ui Sijak" class="lazyload" border="0" data-src="https://myanimelist.cdn-dena.com/r/50x70/images/anime/6/78178.jpg?s=7dda5d78888045602a88849c99506bda" data-srcset="https://myanimelist.cdn-dena.com/r/50x70/images/anime/6/78178.jpg?s=7dda5d78888045602a88849c99506bda 1x, https://myanimelist.cdn-dena.com/r/100x140/images/anime/6/78178.jpg?s=6d26491191a702cb26322567ac7bdeb2 2x" />
+    </a>
+
+    <div class="detail"><div id="area32566">
+  <div id="info32566" rel="a32566" class="hoverinfo"></div>
+</div>
+<div class="di-ib clearfix"><a class="hoverinfo_trigger fl-l fs14 fw-b" href="https://myanimelist.net/anime/32566/Noblesse__Pamyeol-ui_Sijak" id="#area32566" rel="#info32566">Noblesse: Pamyeol-ui Sijak</a><a href="https://myanimelist.net/anime/32566/Noblesse__Pamyeol-ui_Sijak/video" class="icon-watch-pv ml8" title="Watch Promotional Video">Watch Promotional Video</a></div><br><div class="information di-ib mt4">
+        OVA (1 eps)<br>
+        Dec 2015 - Dec 2015<br>
+        22,087 members
+      </div></div>
+  </td>
+
+    <td class="score ac fs14"><div class="js-top-ranking-score-col di-ib al"><i class="icon-score-star mr4 on"></i><span class="text on">7.54</span></div>
+  </td>
+
+    <td class="your-score ac fs14">
+    <div class="js-top-ranking-your-score-col di-ib al">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=""><i class="icon-score-star mr4 "></i><span class="text ">N/A</span></a>
+</div>
+  </td>
+
+    <td class="status ac">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=" btn-addEdit-large btn-anime-watch-status js-anime-watch-status notinmylist"><i class="fa fa-plus-square-o mr4"></i>Add to list</a>
+</td>
+</tr>
+
+<tr class="ranking-list">
+    <td class="rank ac" valign="top">
+    <span class="lightLink top-anime-rank-text rank4">1550</span>
+  </td>
+    <td class="title al va-t word-break">
+    <a class="hoverinfo_trigger fl-l ml12 mr8" href="https://myanimelist.net/anime/1212/Oban_Star-Racers" id="#area1212" rel="#info1212">
+      <img width="50" height="70" alt="Anime: Oban Star-Racers" class="lazyload" border="0" data-src="https://myanimelist.cdn-dena.com/r/50x70/images/anime/12/3702.jpg?s=cb3f8daa98911d1a2c9f8b20028f6ab1" data-srcset="https://myanimelist.cdn-dena.com/r/50x70/images/anime/12/3702.jpg?s=cb3f8daa98911d1a2c9f8b20028f6ab1 1x, https://myanimelist.cdn-dena.com/r/100x140/images/anime/12/3702.jpg?s=664b68eadc82cc215129d072aeedc38b 2x" />
+    </a>
+
+    <div class="detail"><div id="area1212">
+  <div id="info1212" rel="a1212" class="hoverinfo"></div>
+</div>
+<div class="di-ib clearfix"><a class="hoverinfo_trigger fl-l fs14 fw-b" href="https://myanimelist.net/anime/1212/Oban_Star-Racers" id="#area1212" rel="#info1212">Oban Star-Racers</a><a href="https://myanimelist.net/anime/1212/Oban_Star-Racers/video" class="icon-watch-pv ml8" title="Watch Promotional Video">Watch Promotional Video</a></div><br><div class="information di-ib mt4">
+        TV (26 eps)<br>
+        Apr 2006 - Dec 2006<br>
+        32,798 members
+      </div></div>
+  </td>
+
+    <td class="score ac fs14"><div class="js-top-ranking-score-col di-ib al"><i class="icon-score-star mr4 on"></i><span class="text on">7.54</span></div>
+  </td>
+
+    <td class="your-score ac fs14">
+    <div class="js-top-ranking-your-score-col di-ib al">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=""><i class="icon-score-star mr4 "></i><span class="text ">N/A</span></a>
+</div>
+  </td>
+
+    <td class="status ac">      <a href="https://myanimelist.net/login.php?error=login_required&amp;from=%2Ftopanime.php%3Flimit%3D1500" class=" btn-addEdit-large btn-anime-watch-status js-anime-watch-status notinmylist"><i class="fa fa-plus-square-o mr4"></i>Add to list</a>
+</td>
+</tr>
+</table><div class="di-b ac pt16 pb16 pagination icon-top-ranking-page-bottom"><a href="?limit=1450" class="link-blue-box prev mr4"><i class="fa fa-chevron-left mr4"></i>Prev 50</a><a href="?limit=1550" class="link-blue-box next">Next 50<i class="fa fa-chevron-right ml4"></i></a></div>
+</div></div><!-- end of contentHome -->
+</div><!-- end of contentWrapper -->
+
+
+<!--  control container height -->
+<div style="clear:both;"></div>
+
+<!-- end rightbody -->
+
+</div><!-- wrapper -->
+
+
+</div><!-- #myanimelist -->
+
+
+<div class="footer-ranking">
+  <div class="ranking-container">
+          <div class="ranking-unit">
+        <h3 class="title"><a href="https://myanimelist.net/topanime.php" class="view_more fl-r">More</a>Top Anime
+        </h3>
+        <ol>
+                      <li>
+              <span class="rank">1</span>
+              <a href="https://myanimelist.net/anime/5114/Fullmetal_Alchemist__Brotherhood">Fullmetal Alchemist: Brotherhood</a>
+            </li>
+                      <li>
+              <span class="rank">2</span>
+              <a href="https://myanimelist.net/anime/32281/Kimi_no_Na_wa">Kimi no Na wa.</a>
+            </li>
+                      <li>
+              <span class="rank">3</span>
+              <a href="https://myanimelist.net/anime/28977/Gintama°">Gintama°</a>
+            </li>
+                      <li>
+              <span class="rank">4</span>
+              <a href="https://myanimelist.net/anime/9253/Steins_Gate">Steins;Gate</a>
+            </li>
+                      <li>
+              <span class="rank">5</span>
+              <a href="https://myanimelist.net/anime/820/Ginga_Eiyuu_Densetsu">Ginga Eiyuu Densetsu</a>
+            </li>
+                  </ol>
+      </div>
+          <div class="ranking-unit">
+        <h3 class="title"><a href="https://myanimelist.net/topanime.php?type=airing" class="view_more fl-r">More</a>Top Airing Anime
+        </h3>
+        <ol>
+                      <li>
+              <span class="rank">1</span>
+              <a href="https://myanimelist.net/anime/37991/JoJo_no_Kimyou_na_Bouken__Ougon_no_Kaze">JoJo no Kimyou na Bouken: Ougon no Kaze</a>
+            </li>
+                      <li>
+              <span class="rank">2</span>
+              <a href="https://myanimelist.net/anime/21/One_Piece">One Piece</a>
+            </li>
+                      <li>
+              <span class="rank">3</span>
+              <a href="https://myanimelist.net/anime/38262/Pingu_in_the_City_2nd_Season">Pingu in the City 2nd Season</a>
+            </li>
+                      <li>
+              <span class="rank">4</span>
+              <a href="https://myanimelist.net/anime/35972/Fairy_Tail__Final_Series">Fairy Tail: Final Series</a>
+            </li>
+                      <li>
+              <span class="rank">5</span>
+              <a href="https://myanimelist.net/anime/37450/Seishun_Buta_Yarou_wa_Bunny_Girl_Senpai_no_Yume_wo_Minai">Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai</a>
+            </li>
+                  </ol>
+      </div>
+          <div class="ranking-unit">
+        <h3 class="title">Top Page Views
+        </h3>
+        <ol>
+                      <li>
+              <span class="rank">1</span>
+              <a href="https://myanimelist.net/anime/37430/Tensei_shitara_Slime_Datta_Ken">Tensei shitara Slime Datta Ken</a>
+            </li>
+                      <li>
+              <span class="rank">2</span>
+              <a href="https://myanimelist.net/anime/37349/Goblin_Slayer">Goblin Slayer</a>
+            </li>
+                      <li>
+              <span class="rank">3</span>
+              <a href="https://myanimelist.net/anime/37450/Seishun_Buta_Yarou_wa_Bunny_Girl_Senpai_no_Yume_wo_Minai">Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai</a>
+            </li>
+                      <li>
+              <span class="rank">4</span>
+              <a href="https://myanimelist.net/anime/37799/Tokyo_Ghoul_re_2nd_Season">Tokyo Ghoul:re 2nd Season</a>
+            </li>
+                      <li>
+              <span class="rank">5</span>
+              <a href="https://myanimelist.net/anime/36474/Sword_Art_Online__Alicization">Sword Art Online: Alicization</a>
+            </li>
+                  </ol>
+      </div>
+          <div class="ranking-unit">
+        <h3 class="title"><a href="https://myanimelist.net/character.php" class="view_more fl-r">More</a>Most Popular Characters
+        </h3>
+        <ol>
+                      <li>
+              <span class="rank">1</span>
+              <a href="https://myanimelist.net/character/417/Lelouch_Lamperouge">Lamperouge, Lelouch</a>
+            </li>
+                      <li>
+              <span class="rank">2</span>
+              <a href="https://myanimelist.net/character/71/L_Lawliet">Lawliet, L</a>
+            </li>
+                      <li>
+              <span class="rank">3</span>
+              <a href="https://myanimelist.net/character/40/Luffy_Monkey_D">Monkey D., Luffy</a>
+            </li>
+                      <li>
+              <span class="rank">4</span>
+              <a href="https://myanimelist.net/character/11/Edward_Elric">Elric, Edward</a>
+            </li>
+                      <li>
+              <span class="rank">5</span>
+              <a href="https://myanimelist.net/character/35252/Rintarou_Okabe">Okabe, Rintarou</a>
+            </li>
+                  </ol>
+      </div>
+      </div>
+</div>
+<footer>
+  <div id="footer-block">
+    <div class="footer-link-block">
+      <p class="footer-link home di-ib">
+        <a href="https://myanimelist.net/">Home</a>
+      </p>
+      <p class="footer-link di-ib">
+        <a href="https://myanimelist.net/about.php">About</a>
+        <a href="https://myanimelist.net/pressroom">Press Room</a>
+        <a href="https://myanimelist.net/about.php?go=contact">Support</a>
+        <a href="https://myanimelist.net/advertising">Advertising</a>
+        <a href="https://myanimelist.net/forum/?topicid=515949">FAQ</a>
+        <a href="https://myanimelist.net/about/terms_of_use">Terms</a>
+        <a href="https://myanimelist.net/about/privacy_policy">Privacy</a>
+        <a href="https://myanimelist.net/about/sitemap">Sitemap</a>
+      </p>
+            <p class="footer-link login di-ib">
+        <a href="https://myanimelist.net/login.php?from=%2Ftopanime.php%3Flimit%3D1500" id="malLogin" rel="nofollow">Login</a>
+        <a href="https://myanimelist.net/register.php?from=%2Ftopanime.php%3Flimit%3D1500">Sign Up</a>
+      </p>
+          </div>
+
+    <div class="footer-link-icon-block">
+            <div class="footer-social-media ac">
+        <a target="_blank" class="icon-sns icon-fb di-ib" href="https://www.facebook.com/OfficialMyAnimeList"></a>
+        <a target="_blank" class="icon-sns icon-tw di-ib" title="Follow @myanimelist on Twitter" href="https://twitter.com/myanimelist"></a>
+      </div>
+            <div class="footer-recommended ac">
+        <a target="_blank" class="icon-recommended icon-tokyo-otaku-mode" href="http://otakumode.com/fb/5aO">Tokyo Otaku Mode</a>
+        <a target="_blank" class="icon-recommended icon-honeys-anime" href="https://honeysanime.com">Honey's Anime</a>
+        <a target="_blank" class="icon-recommended icon-manga-store" href="https://myanimelist.net/store?_location=mal_f_m">Manga Store</a>
+      </div>
+    </div>
+
+        <iframe class="fb-page" src="" width="450" height="154" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+
+    <div id="copyright">
+      MyAnimeList.net is a property of MyAnimeList, LLC. &copy;2015 All Rights Reserved.
+    </div>
+  </div>
+</footer>
+
+<script type="text/javascript">
+    window.MAL.magia = "06410c4e6b2518e9add8f6df0ccb2da2876bb8c980aacb43a8dcaa8153c0f92c";
+  window.MAL.madoka = "hZrDKm9k6FVRnqd3i%=K";
+
+  window.MAL.SLVK = "g4OvMLVOmEI3J8u7dt8f8+mAuualsqCo";
+  window.MAL.CDN_URL = "https://myanimelist.cdn-dena.com";
+
+  window.MAL.CURRENT_TUTORIAL_STEP_ID = null;
+  window.MAL.USER_NAME = ""
+  window.MAL.FACEBOOK.APP_ID = "360769957454434"
+  window.MAL.FACEBOOK.API_VERSION = "v2.12"
+</script>
+</body>
+</html>
