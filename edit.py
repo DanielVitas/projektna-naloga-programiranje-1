@@ -163,7 +163,7 @@ def get_linked_lists(anime_list):
 def create_data(directory=folders.full_directory, json=True, csv=True):
     anime_list = []
     for filename in os.listdir(directory):
-        # print(filename)
+        print(filename)
         content = orodja.vsebina_datoteke(os.path.join(directory, filename))
         result = full_pattern.search(content)
         if result:
