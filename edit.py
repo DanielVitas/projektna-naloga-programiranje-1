@@ -167,7 +167,11 @@ def create_data(directory=folders.full_directory, json=True, csv=True, delete_in
         content = orodja.vsebina_datoteke(os.path.join(directory, filename))
         result = full_pattern.search(content)
         if result:
-            anime_list.append(clean_info(result.groupdict()))
+            anime_dict = clean_info(result.groupdict())
+            if anime_dict['rating'] != 'Rx - Hentai':
+                anime_list.append(anime_dict)
+            else:
+                print('Ups: ', filename)
         else:
             print('Failed: ', filename, ':\n', content)
             failed.append(os.path.join(directory, filename))

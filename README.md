@@ -14,7 +14,7 @@ Za vsak anime bom zajel:
 * vir (manga, lahki roman, spletna manga, originalno delo)
 * žanre
 * dolžino posamezne epizode
-* starostno oceno (PG-13, R-17)
+* starostno oceno (PG-13, R-17+)
 * povprečno oceno vseh uporabnikov
 * rank (neka uvrstitev odvisna od ocene in popularnost, izračunana z MAL algoritmom)
 * popularnost (uvrstitev glede na druge animeje)
@@ -24,7 +24,7 @@ Za vsak anime bom zajel:
 Delovne hipoteze:
 * Z popularnostjo se povprečna ocena viša, do neke meje, od kjer naprej začne padati.
 * Animeji predvajani na televiziji so bolj popularni od tistih z drugih virov.
-* Animeji z starostno oceno R-17 so povprečno bolje ocenjeni od drugih.
+* Animeji z starostno oceno R-17+ so povprečno bolje ocenjeni od drugih.
 * Comedy je najslabše ocenjen žanr a pri tem najbolj popularen.
 * Z številom žanrov se popularnost animeje veča.
 * Povprečna ocena vseh filmov je nižja kot tista vseh animejev (predvajanih po televiziji).
