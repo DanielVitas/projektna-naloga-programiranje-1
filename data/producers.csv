@@ -45,6 +45,7 @@ id,name
 51,Diomedea
 52,Avex Entertainment
 53,Dentsu
+54,Mook Animation
 55,TV Asahi
 56,A-1 Pictures
 58,Square Enix
@@ -187,6 +188,7 @@ id,name
 235,Shirogumi
 236,YTV
 238,AT-X
+239,Y.O.U.C
 240,Capcom
 241,Koei
 242,Ashi Production
@@ -222,6 +224,7 @@ id,name
 291,CoMix Wave Films
 292,AIC Plus+
 293,Picograph
+294,Discovery
 298,Studio Anima
 299,Studio Pastoral
 300,Silver Link.
@@ -229,6 +232,7 @@ id,name
 304,Primastea
 306,Magic Capsule
 307,Sunwoo Entertainment
+308,Yellow Film
 309,GoHands
 310,AnimEigo
 311,Enoki Films
@@ -245,6 +249,7 @@ id,name
 325,Code
 326,Animation 21
 327,Takara
+328,Casio Entertainment
 329,Phoenix Entertainment
 330,Kanaban Graphics
 331,Indeprox
@@ -256,11 +261,14 @@ id,name
 338,Studio Bogey
 339,Rankin/Bass
 340,Future Planet
+341,SamBakZa
 342,Japan Home Video
 343,Puzzle Animation Studio Limited
 344,Atlus
 345,TAKI Corporation
 346,Hoods Entertainment
+347,PrimeTime
+348,Kawamoto Productions
 349,Itasca Studio
 350,The Village of Marchen
 351,Big West
@@ -279,9 +287,12 @@ id,name
 370,Iyasakadou Film
 373,Panda Factory
 374,Plus Heads
+375,I.Toon
 376,Sentai Filmworks
 377,Kuri Jikken Manga Kobo
 378,Grasshoppa!
+379,Avaco Creative Studios
+380,Amuse Pictures
 381,Yamato Works
 382,Tokuma Shoten
 383,KMMJ Studios
@@ -294,6 +305,7 @@ id,name
 391,Grouper Productions
 392,Enterbrain
 393,Epoch
+394,Misseri Studio
 395,Oz
 397,Bridge
 398,Milky Cartoon
@@ -303,6 +315,7 @@ id,name
 403,Tokyo Media Connections
 404,Studio Unicorn
 406,Asahi Production
+408,Amino
 409,Studio Egg
 411,KBS
 412,Studio Wombat
@@ -345,6 +358,7 @@ id,name
 453,Tsuburaya Productions
 455,Palm Studio
 456,Lerche
+457,Venet
 458,Beijing Sharaku Art
 459,Nitroplus
 460,KlockWorx
@@ -365,6 +379,7 @@ id,name
 477,Kino Production
 478,Studio Blanc
 479,DOGA Productions
+482,Automatic Flowers Studio
 485,Shinwon Productions
 486,Digital Frontier
 487,Studio MWP
@@ -378,8 +393,10 @@ id,name
 507,Universal Studios
 511,Wonder Kids
 513,Nikkatsu
+515,Fairy Dust
 517,Asmik Ace
 521,Anpro
+523,SBS TV Production
 525,KAGAYA Studio
 527,Higa Brothers Production
 529,Lapis
@@ -401,10 +418,14 @@ id,name
 565,LMD
 567,D.A.S.T.
 569,MAPPA
+575,Katsudou-manga-kan
 577,Tohokushinsha Film Corporation
 581,Sparky Animation
 583,Annapuru
+585,Arplants
 587,Tomason
+589,Academy Productions
+591,Romanov Films
 593,Egg
 601,ixtl
 605,C2C
@@ -421,6 +442,7 @@ id,name
 647,Memory-Tech
 649,Hakoniwa Academy Student Council
 655,Volks
+657,Lucky Paradise
 661,Right Gauge
 663,Dwango Music Entertainment
 665,chara-ani.com
@@ -447,6 +469,7 @@ id,name
 723,Hotline
 727,Kiyosumi High School Mahjong Club
 729,Raku High Student Council
+733,Viki
 735,Slowcurve
 737,Sony Music Communications
 741,Toshiba Entertainment
@@ -509,6 +532,8 @@ id,name
 894,Graphinica
 896,Larx Entertainment
 898,Xebec Zwei
+899,Tokyo Animation Film
+901,Tsubasa Entertainment
 905,Tokuma Japan
 907,AYCO
 909,Studio Kelmadick
@@ -521,6 +546,7 @@ id,name
 925,Earth Star Entertainment
 929,Animation Do
 931,Poncotan
+933,Carp Studio
 937,Studio Kaab
 939,Tama Production
 941,Iwatobi High School Swimming Club
@@ -549,6 +575,8 @@ id,name
 1013,Opera House
 1015,T.O Entertainment
 1017,Liverpool
+1019,Himeyuri Alumnae Incorporated Foundation
+1021,ASIA Documentary Productions
 1023,Polygon Pictures
 1025,Dongwoo A&amp;E
 1029,BeeWorks
@@ -568,6 +596,7 @@ id,name
 1065,Public &amp; Basic
 1067,Rising Force
 1071,Studio Lotus
+1073,Magic Lantern Film
 1075,C-Station
 1077,MMDGP
 1079,3xCube
@@ -580,6 +609,7 @@ id,name
 1099,Cyclone Graphics
 1101,Lambert
 1103,TROYCA
+1105,Gendai Production
 1109,Orange
 1111,DandeLion Animation Studio
 1113,NBCUniversal Entertainment Japan
@@ -618,11 +648,14 @@ id,name
 1193,MooGoo
 1195,Creators in Pack
 1197,Steve N&#039; Steven
+1207,Comic Umenohone
 1209,Studio A-CAT
 1211,Tokyo MX
 1213,Mobcast
 1215,Daiichikosho
 1217,HeART-BIT
+1219,Hokkaido Azmacy
+1221,Hokkaido Cultural Broadcasting
 1223,Teichiku Entertainment
 1225,Age Global Networks
 1229,Pie in the sky
@@ -664,6 +697,7 @@ id,name
 1278,Signal.MD
 1279,Buemon
 1280,Media Castle
+1281,Office DCI
 1282,Arcturus
 1283,TC Entertainment
 1284,Avex Pictures
@@ -672,6 +706,7 @@ id,name
 1287,Q-Tec
 1288,Chrono Gear Creative
 1289,F.M.F
+1290,Pollyanna Graphics
 1291,KOO-KI
 1292,TUBA
 1293,Romantica club !!
@@ -696,6 +731,8 @@ id,name
 1313,Amuse
 1314,Gaina
 1315,Fujiko F. Fujio Pro
+1316,Trans Cosmos
+1317,Production GoodBook
 1318,Asahi Shimbun
 1319,Tokyo Theatres
 1320,Joker Films
@@ -725,6 +762,7 @@ id,name
 1350,G.CMay Animation &amp; Film
 1353,Issen
 1354,Penta Show Studios
+1355,TV Aichi
 1356,Tonko House
 1357,Craftar Studios
 1358,Fields
@@ -739,6 +777,7 @@ id,name
 1371,T.P.O
 1372,SOEISHINSHA
 1373,Akita Shoten
+1376,ZOOM ENTERPRISE
 1377,Futabasha
 1378,Media Rings
 1379,Zero-G
@@ -748,6 +787,7 @@ id,name
 1384,CinePix
 1386,Infinite
 1387,Neft Film
+1389,Frencel
 1390,Toy&#039;s Factory
 1391,SPO Entertainment
 1392,Zack Promotion
@@ -758,6 +798,7 @@ id,name
 1398,Akabanten
 1399,Asura Film
 1400,Walkers Company
+1401,Amgakuin
 1403,Meiji Seika
 1404,PSG
 1405,Chuubu Nihon Kyouei
@@ -774,12 +815,15 @@ id,name
 1417,RAB Aomori Broadcasting
 1418,Nippon Television Music
 1419,GARDEN LODGE
+1420,SIDO LIMITED
 1421,Takara Tomy A.R.T.S
 1422,CyberAgent
 1423,Forecast Communications
 1425,5pb.
+1426,Studio Meditation With a Pencil
 1427,EBS
 1428,Level-5
+1429,Azumaker
 1430,Shogakukan
 1431,Yaoqi
 1433,Ekura Animal
@@ -793,6 +837,7 @@ id,name
 1442,Mook DLE
 1443,Overlap
 1444,Egg Firm
+1445,Arcs Create
 1446,NEC Avenue
 1448,Network
 1449,Animatic
@@ -802,6 +847,9 @@ id,name
 1453,Yoon&#039;s Color
 1454,REALTHING
 1455,Tokai Television
+1456,Beijing Huihuang Animation Company
+1457,Hisashishi Videos
+1458,TOMY Company
 1460,Coastline Animation Studio
 1461,Audio Tanaka
 1462,B&amp;T
@@ -829,6 +877,7 @@ id,name
 1492,Yomiuri TV Enterprise
 1493,Tokuma Japan Communications
 1494,Kanon Sound
+1495,Hobibox
 1496,Lawson
 1497,C &amp; I entertainment
 1498,Koei Tecmo Games
@@ -836,6 +885,9 @@ id,name
 1500,ABC Animation
 1501,East Japan Marketing &amp; Communications
 1502,Adores
+1503,Heroz
+1504,Studio Z5
+1505,Studio March
 1506,Audio Planning U
 1507,Sumitomo
 1508,project lights
@@ -863,12 +915,15 @@ id,name
 1532,Nihon Eizo
 1533,Studio WHO
 1534,North Stars Pictures
+1535,Coolism Productions
 1536,Namu Animation
+1537,Wargaming Japan
 1538,JTB Entertainment
 1539,Highlights Entertainment
 1540,Kadokawa Media (Taiwan)
 1541,Tose
 1542,DMM.com
+1543,Sunrise Music Publishing
 1544,Bandai Namco Rights Marketing
 1545,Japan Taps
 1547,Blade
@@ -894,6 +949,7 @@ id,name
 1568,Pazzy Entertainment
 1569,Seven Arcs Pictures
 1570,Design Factory
+1571,Voyager Entertainment
 1572,XFLAG
 1573,XFLAG Pictures
 1574,Quaras
@@ -907,6 +963,7 @@ id,name
 1583,U-NEXT
 1584,Beyond C.
 1585,Nichion
+1586,CIC
 1587,Cygames
 1588,Bandai Channel
 1589,NichiNare
@@ -915,6 +972,7 @@ id,name
 1592,Kamio Japan
 1593,Success Corp.
 1594,Exit Tunes
+1595,Quatre Stella
 1596,Will Palette
 1597,Sotsu Music Publishing
 1598,Exa International
@@ -932,6 +990,7 @@ id,name
 1610,Baku Enterprise
 1611,Shanghai Tiantan Culture &amp; Media
 1612,NADA Holdings
+1613,COLOPL
 1614,NTT Plala
 1615,USEN
 1617,Tencent Japan
@@ -955,9 +1014,12 @@ id,name
 1635,A-Sketch
 1636,Gigno Systems
 1637,Top-Insight International
+1638,Tsukimidou
+1639,Chiptune
 1640,Kujou-kun no Bonnou wo Mimamoru-kai
 1641,Studio AWAKE
 1643,Tokyo University of the Arts
+1644,Mirai Records
 1645,Just Production
 1646,JP Room
 1647,Smiral Animation
@@ -969,11 +1031,13 @@ id,name
 1655,QREAZY
 1656,FUJIYAMA PROJECT JAPAN
 1657,Creek &amp; River
+1658,Donuts
 1660,Top Marshal
 1661,drop
 1662,Creators Dot Com
 1663,Jidaigeki Channel
 1664,Fujimi Shobo
+1665,Yili Animation Studio
 1666,Studio Carbuncle
 1667,Shanghai Foch Film Culture Investment
 1668,Karasfilms
@@ -997,15 +1061,21 @@ id,name
 1687,Yokohama Animation Lab
 1688,Parco
 1689,e-notion
+1690,Imagineer
 1691,Studio UGOKI
+1692,Revoroot
+1693,Studio Flad
+1694,AZ Creative
 1695,Hulu
 1696,Kadokawa
+1697,KDDI
 1698,Sapporo Television Broadcasting
 1699,Miyagi Television Broadcasting
 1700,Shizuoka Daiichi Television
 1701,Chukyo TV Broadcasting
 1702,Hiroshima Television
 1703,Fukuoka Broadcasting System
+1705,Studio Khronos
 1706,Beijing Rocen Digital
 1707,AKABEiSOFT2
 1708,Shufunotomo
@@ -1019,6 +1089,7 @@ id,name
 1716,Hipland Music Corporation
 1717,Onionskin
 1718,Virgin Babylon Records
+1719,Kotobukiya
 1720,Aoni Production
 1722,Bibury Animation Studios
 1723,Anime Beans
@@ -1036,6 +1107,9 @@ id,name
 1735,JY Animation
 1736,DJI
 1739,Quick Corporation
+1740,Kawade Shobo Shinsha
+1741,RX-RECORDS
+1742,UK.PROJECT INC.
 1743,Greenwood
 1744,My Theater D.D.
 1745,Brave Hearts
@@ -1056,8 +1130,11 @@ id,name
 1762,Piso Studio
 1763,Studio Nanahoshi
 1764,Picona
+1765,Shodensha
 1766,Husio Studio
+1767,iDRAGONS Creative Studio
 1768,Sparkly Key Animation Studio
+1769,helo.inc
 1770,KIZAWA Studio
 1771,Pb Animation Co. Ltd.
 1772,Wawayu Animation
@@ -1077,7 +1154,9 @@ id,name
 1790,KEN ON
 1791,D.N.dreampartners
 1792,Yomiuri Shimbun
+1794,EKACHI EPILKA
 1797,NHK Enterprises
+1798,Links
 1799,Drecom
 1800,Marui Group
 1801,Aquamarine
@@ -1087,7 +1166,9 @@ id,name
 1806,iQIYI
 1807,2:10 Animation
 1808,CG Year
+1809,October Media
 1810,Mili Pictures
+1812,Imagica Imageworks
 1813,Studio Lings
 1814,Studio Hakk
 1815,Gree
@@ -1095,9 +1176,12 @@ id,name
 1817,Rakuten
 1818,Shanghai Jump Network Technology
 1819,D-techno
+1820,Yoshimoto Creative Agency
 1821,Melonbooks
+1822,Fujio Production
 1823,Live Viewing Japan
 1824,Epicross
+1825,NIANTIC
 1826,Jay Zone Comic
 1827,Shanghai Motion Magic
 1829,Lesprit
@@ -1106,6 +1190,7 @@ id,name
 1833,Yamasa
 1835,CloverWorks
 1837,G-angle
+1838,33 Collective
 1839,Studio Ppuri
 1840,Bandai Namco Arts
 1842,Urban Product
@@ -1118,7 +1203,11 @@ id,name
 1850,Rex Entertainment
 1851,Jumonji
 1852,Studio Shamrock
+1853,Saetta
+1854,monofilmo
+1855,Alchemy Bros.
 1856,dugout
+1857,GEEKTOYS
 1858,Sonilude
 1859,SKY PerfecTV!
 1860,Magia Doraglier
@@ -1139,12 +1228,16 @@ id,name
 1879,Dangun Pictures
 1880,Tencent Games
 1882,UWAN Pictures
+1883,APDREAM
 1884,TSUTAYA
 1885,Ashisuto
 1886,Aeon Entertainment
+1887,Brio Animation
+1888,RME
 1889,Warner Bros. Pictures
 1891,Mattel Creations
 1892,Sublimation
+1893,CygamesPictures
 1895,Gamegate
 1896,Micro Magazine Publishing
 1897,Ankama Animations
@@ -1155,7 +1248,23 @@ id,name
 1902,COMICSMART
 1903,Imagica Lab.
 1904,High Kick Entertainment
+1905,Libre
+1906,animate
 1907,Hawkeye
 1908,Legs
 1909,Souten no Ken
 1911,Dokidoki Factory
+1912,Arquebuse
+1913,Kadokawa Haruki Corporation
+1914,Samsung
+1915,Namisokan
+1917,Hexagon Pictures
+1918,SME Records
+1919,Muse International
+1920,Watermark
+1921,OCC
+1922,Celsys
+1923,Graduate School of Film Producing
+1924,Orix
+1925,GoGo Visual Planning
+1926,Company AZA

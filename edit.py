@@ -160,15 +160,20 @@ def get_linked_lists(anime_list):
 ###############################################################################
 
 
-def create_data(directory=folders.full_directory, json=True, csv=True):
+def create_data(directory=folders.full_directory, json=True, csv=True, delete_invalid=True):
     anime_list = []
+    failed = []
     for filename in os.listdir(directory):
         content = orodja.vsebina_datoteke(os.path.join(directory, filename))
         result = full_pattern.search(content)
         if result:
             anime_list.append(clean_info(result.groupdict()))
         else:
-            print('Failed: ', filename)
+            print('Failed: ', filename, ':\n', content)
+            failed.append(os.path.join(directory, filename))
+    if delete_invalid:
+        for file in failed:
+            os.remove(file)
     anime_list.sort(key=lambda anime: anime['id'])
     if json:
         orodja.zapisi_json(anime_list, folders.json_name)
