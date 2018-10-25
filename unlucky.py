@@ -17,4 +17,4 @@ def clean(directory=folders.top_directory):
     for file in to_delete:
         os.remove(file)
 
-clean()
+clean(directory=folders.full_directory)

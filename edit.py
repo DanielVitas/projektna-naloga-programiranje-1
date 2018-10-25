@@ -163,11 +163,12 @@ def get_linked_lists(anime_list):
 def create_data(directory=folders.full_directory, json=True, csv=True):
     anime_list = []
     for filename in os.listdir(directory):
-        print(filename)
         content = orodja.vsebina_datoteke(os.path.join(directory, filename))
         result = full_pattern.search(content)
         if result:
             anime_list.append(clean_info(result.groupdict()))
+        else:
+            print('Failed: ', filename)
     anime_list.sort(key=lambda anime: anime['id'])
     if json:
         orodja.zapisi_json(anime_list, folders.json_name)
