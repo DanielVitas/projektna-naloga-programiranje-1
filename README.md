@@ -33,11 +33,11 @@ Delovne hipoteze:
 * Z količino animejev, ki jih studio izdela se njihova poprečna popularnost veča.
 
 ## Priprava podatkov
-Podatke sem zajel z strani [Top Anime - MyAnimeList.net](https://myanimelist.net/topanime.php) z skripto [download.py](download.py), ki prenese prvih x strani. Nažalost je na top listu vidno manj podatkov kot sem si jih želel, zato nasledenj del skripte zajame in zapiše zgolj linke do podrobnejših opisov posameznega animeja. Nato pa prenese še vse strani na teh linkih.  
+Podatke sem zajel z strani [Top Anime - MyAnimeList.net](https://myanimelist.net/topanime.php) z skripto [download.py](download.py), ki prenese prvih x strani. Nažalost je na top listu vidno manj podatkov kot sem si želel, zato nasledenj del skripte zajame in zapiše zgolj linke do podrobnejših opisov posameznega animeja. Nato pa prenese še vse strani na teh linkih.  
   
-Žal se je pojavil problem, da mi je MyAnimeList začel prenašati neveljavne strani (npr. Too many requests, Page not found). Zato je tu skripta [unlucky.py](unlucky.py), ki pobriše neveljavne strani, to pa dela kasneje se deloma [edit.py](edit.py).  
+Žal se je pojavil problem, da mi je MyAnimeList začel prenašati neveljavne strani (npr. Too many requests, Page not found). Zato je tu skripta [unlucky.py](unlucky.py), ki pobriše neveljavne strani, to pa dela kasneje še deloma [edit.py](edit.py).  
   
 Skripta [edit.py](edit.py) zajame podatke za posamezen anime ki so napisani čisto na vrhu. Te podatke očisti in ustvari json file, ter naslednje csv-je:
-* [anime](data/anime.csv), ki vsebuje večino podatkov o animejih prav tako pa njihov id
+* [anime](data/anime.csv), ki vsebuje večino podatkov o animejih prav tako pa njihove id-je
 * [genres](data/genres.csv) in [producers](data/producers.csv), ki vsebujej podatke o žanrih in njihove id-je, ter podatke o producentih oz. studijih ter njihov id-je
-* [linked genres](data/linkedgenres.csv), [linked producers](data/linkedproducers.csv) in [linked studios](data/linkedstudios.csv) ki vsebujejo povezave med animeji ter žanri, producenti ter studiji respektivno. Lahko bi združil slednji dve tabeli ter dodal še stolpec "vloge", a se mi je zdelo bolje, da so studiji ločeni od producentov, saj igrajo veliko večjo vlogo pri izdelavi animeja kot slednji. Prav tako pa ima en anime najpogosteje zgolj en studijo, zato je bolj smiselno razporediti tabelo po studijih, kot po animejih.
+* [linked genres](data/linkedgenres.csv), [linked producers](data/linkedproducers.csv) in [linked studios](data/linkedstudios.csv) ki vsebujejo povezave med animeji ter žanri, producenti ter studiji respektivno. Lahko bi združil slednji dve tabeli ter dodal še stolpec "vloge", a se mi je zdelo bolje, da so studiji ločeni od producentov, saj igrajo veliko večjo vlogo pri izdelavi animeja. Prav tako pa ima en anime najpogosteje zgolj en studijo, zato je bolj smiselno razporediti tabelo po studijih, kot po animejih.

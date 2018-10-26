@@ -144,7 +144,7 @@ def get_linked_lists(anime_list):
                 producers.append(producer)
             producer_list.append({'anime': anime['id'], 'producer': producer['id']})
         for genre in anime.pop('genres'):
-            if genre['id'] not in producers_seen:
+            if genre['id'] not in genres_seen:
                 genres_seen.add(genre['id'])
                 genres.append(genre)
             genre_list.append({'anime': anime['id'], 'genre': genre['id']})
