@@ -22,11 +22,11 @@ Za vsak anime bom zajel:
 * favoriti (koliko uporabnikov je označilo ta anime kot eden svojih najljubših)
 
 Delovne hipoteze:
-* Z popularnostjo se povprečna ocena viša, do neke meje, od kjer naprej začne padati.
+* S popularnostjo se povprečna ocena viša, do neke meje, od kjer naprej začne padati.
 * Animeji predvajani na televiziji so bolj popularni od tistih z drugih virov.
 * Animeji z starostno oceno R-17+ so povprečno bolje ocenjeni od drugih.
-* Comedy je najslabše ocenjen žanr a pri tem najbolj popularen.
-* Z številom žanrov se popularnost animeje veča.
+* Comedy je najslabše ocenjen žanr, a pri tem najbolj popularen.
+* S številom žanrov se popularnost animeja veča.
 * Povprečna ocena vseh filmov je nižja kot tista vseh animejev (predvajanih po televiziji).
 * Povprečna ocena vseh animejev se z leti veča.
 * Povprečna ocena se z dolžino animeja manjša, a popularnost veča, prav tako kot število favoritov.
