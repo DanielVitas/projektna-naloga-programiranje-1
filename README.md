@@ -30,10 +30,10 @@ Delovne hipoteze:
 * Povprečna ocena vseh filmov je nižja kot tista vseh animejev (predvajanih po televiziji).
 * Povprečna ocena vseh animejev se z leti veča.
 * Povprečna ocena se z dolžino animeja manjša, a popularnost veča, prav tako kot število favoritov.
-* Z količino animejev, ki jih studio izdela se njihova poprečna popularnost veča.
+* Z količino animejev, ki jih studio izdela se njihova povprečna popularnost veča.
 
 ## Priprava podatkov
-Podatke sem zajel z strani [Top Anime - MyAnimeList.net](https://myanimelist.net/topanime.php) z skripto [download.py](download.py), ki prenese prvih x strani. Nažalost je na top listu vidno manj podatkov kot sem si želel, zato nasledenj del skripte zajame in zapiše zgolj linke do podrobnejših opisov posameznega animeja. Nato pa prenese še vse strani na teh linkih.  
+Podatke sem zajel s strani [Top Anime - MyAnimeList.net](https://myanimelist.net/topanime.php) s skripto [download.py](download.py), ki prenese prvih x strani. Nažalost je na top listu vidno manj podatkov kot sem si želel, zato nasledenj del skripte zajame in zapiše zgolj linke do podrobnejših opisov posameznega animeja. Nato pa prenese še vse strani na teh linkih.  
   
 Pojavila se je težava, da mi je prejšnja skripta začela prenašati neveljavne strani (npr. Too many requests, Page not found). Zato je tu [unlucky.py](unlucky.py), ki pobriše neveljavne strani, to pa dela kasneje še deloma [edit.py](edit.py).  
   
